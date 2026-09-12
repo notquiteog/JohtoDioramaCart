@@ -11,7 +11,7 @@ separately and fetched at its exact build.
 | mod | build | what it does here |
 | --- | --- | --- |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.12.1 | the diorama, 3D-BTL staged on it, and Johto's tiles classified |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.12.2 | the diorama, 3D-BTL staged on it, and Johto's tiles classified |
 | [Free Fly](https://github.com/notquiteog/free_fly) | 1.8.1 | a FLY user carries you over the map; land anywhere walkable |
 | [NPC Bubbles](https://github.com/notquiteog/gen1recomp-npc-bubbles) | 2.3.13 | speech bubbles over NPCs |
 | [Wild Skies](https://github.com/shanehudson-gen1recomp-mods/wild_skies) | 1.12.0 | flocks of local flying Pokémon crossing the sky, perching on rooftops |
@@ -36,10 +36,15 @@ belongs upstream.
   8,284-line profile is a Gen 1 one, so trees, buildings, fences and ledges
   were all the same 16px box wearing their own facade art on the roof.
   1.12.1 then made them *build* right: buildings take their height from
-  their drawing instead of a 16px slab, doors sit in their own facades,
-  trees are a 32px treeline rather than a stepped plateau, and characters
-  stand on the ground — `groundAt` had been answering 16px for every cell
-  of every map, so everyone in Johto floated a block in the air.
+  their drawing instead of a 16px slab, doors sit in their own facades, and
+  characters stand on the ground — `groundAt` had been answering 16px for
+  every cell of every map, so everyone in Johto floated a block in the air.
+  1.12.2 is the height pass that 1.12.1's overcorrections needed: trees and
+  bushes are one cell again instead of leaning two into the path, interiors
+  keep the class height so Elm's Lab's tables are furniture and not 48px
+  towers, and each town wears its own roofs — the palette bake had keyed on
+  the tileset, so New Bark came up in Cherrygrove's pink after one visit
+  there.
 - **Free Fly** flew on Crystal but the camera never lifted, so the diorama
   filled with a very large trainer standing on the grass. Gold's `World`
   drives its own camera every frame, so the mod's ground-plane lift is

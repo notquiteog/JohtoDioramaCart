@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "Johto as a 3D diorama with the battles staged on it and a FLY user to cross it: voxel overworld, visible wilds and followers, free flight, flocks, bubbles, animated sprites.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -33,8 +33,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.12.1",
-      "sha256": "408135d6493618cdc8ca69b21898cefe585811b9ac1540529a086d754c12f7f3"
+      "version": "1.12.2",
+      "sha256": "d8ac8b6564cabd7491b7794504497b2e99e7fca9a97d43839406322487172e44"
     },
     {
       "id": "free_fly",
