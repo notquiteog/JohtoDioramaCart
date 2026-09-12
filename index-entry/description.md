@@ -1,57 +1,70 @@
 # Johto Diorama
 
-Johto as a 3D diorama, with the battles fought on it.
+Johto as a 3D diorama, with the battles fought on it and a FLY user to cross it.
 
 The overworld is extruded into real geometry with depth-buffered occlusion and
-cast shadows, wild Pokémon walk around in it, NPCs talk in speech bubbles, and
-a battle is staged on the map's nearest clear ground — over-the-shoulder
-camera, the mons standing on that ground, depth of field behind them.
+cast shadows — trees, roofs, ledges, fences and tall grass each built as what
+they are, classified from Crystal's own collision bytes and BG palette slots.
+Wild Pokémon walk around in it, a party follower walks behind you, flocks of
+local flyers cross the sky, NPCs talk in speech bubbles, and a battle is staged
+on the map's nearest clear ground — over-the-shoulder camera, the mons standing
+on that ground, depth of field behind them. Then a FLY user picks you up and
+the camera rises with you.
 
-For **Pokémon Crystal**. Four mods, pinned by digest.
+For **Pokémon Crystal**. Six mods, pinned by digest.
 
 ## What's on it
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, with idle/roam/chase behaviour |
-| Battle Art Voxel Fork | 1.11.1 | the diorama, and 3D-BTL staged on it |
+| Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
+| Battle Art Voxel Fork | 1.12.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified |
+| Free Fly | 1.8.1 | a FLY user carries you over the map; land anywhere walkable |
 | NPC Bubbles | 2.3.13 | speech bubbles over NPCs |
+| Wild Skies | 1.12.0 | flocks of local flying Pokémon, perching on rooftops |
 | Crystal Animated Sprites with Shiny Visuals | 2.0.4 | animated battle sprites and shiny visuals |
 
 The order above is the load order, and it is the order the cart was verified
 in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
-`pokemon.sprite` hook, and whichever loads last has the outermost say on the
-art a battle draws.
+`pokemon.sprite` hook, and the one that loads last has the outermost say on
+which art a battle draws.
 
-`sealed+`, so the list is fixed but any of the four can be switched off.
+`seal` is `sealed+`: the list is fixed, but you can switch any of the six off.
 
-## Three of the four are compatibility forks
+## Forks
 
-Two of these did not run on Gen 2 at all and one broke another mod there. Each
-fork is a compatibility fix and nothing else; all credit belongs upstream.
+Four of the six are compatibility forks. Each is a fix and nothing else; all
+credit for the mods belongs upstream.
 
-- **NPC Bubbles** declared no `games` key — Gen 1 only — so a Crystal boot
-  skipped it. The fork declares Gen 2 and gates its Gen 1-only OPTIONS page,
-  which borrows `src.ui.OptionRows`, one of the two Gen 1 names the Gen 2
-  compatibility layer deliberately does not serve.
-- **Crystal Animated Sprites** wrapped Gold's `drawSceneBody` without its
-  `panelFn` argument and forwarded none, silently discarding whatever the
-  caller asked to be drawn.
-- **Battle Art Voxel Fork** is the Gen 2 port itself.
+- **Battle Art Voxel Fork** is the Gen 2 port itself. Before 1.12.0 nothing on
+  a Johto map was classified at all, so trees, buildings and fences were the
+  same 16px box wearing their own facade art on the roof.
+- **Free Fly** flew on Crystal but the camera never lifted with the rider.
+  MIT upstream, so the fork carries that licence unchanged.
+- **NPC Bubbles** declared no `games` key, so a Crystal boot skipped it.
+- **Crystal Animated Sprites** dropped the `panelFn` argument when wrapping
+  Gold's `drawSceneBody`, discarding whatever a caller asked to be drawn.
 
-**Wilds of Kanto is pinned upstream unchanged** — it already declared Gen 2 and
-loaded clean.
+Wilds of Kanto and Wild Skies are pinned upstream unchanged.
+
+## No separate follower mod
+
+Wilds of Kanto absorbed the two people usually reach for. Its own source:
+*"Wilds unified follower system (standalone) … No Followers EX / PokéPC
+runtime dependency."* It ships all 251 follower sprites, replaces Followers
+EX's option rows and migrates its save keys.
 
 ## Verified
 
-Installed from exactly these pinned artifacts and booted on Crystal
-(gen1recomp 0.2.59): all four load with zero loader errors, all six render
-pipelines coexist, New Bark Town draws as a coloured diorama, and a wild battle
-is staged on its ground.
+Booted on Crystal (gen1recomp 0.2.59) from exactly these pinned artifacts:
+all six load with **zero loader errors**, six render pipelines coexist, the
+overworld draws as a diorama, a wild battle is staged on its ground, takeoff
+works through the party submenu and the camera rises with the rider.
 
-## Known gaps
+Known gaps: the 1ST and 3RD first-person rungs are Gen 1 only; Gold's battle
+HUD is authored for a white field, so a name or HP box can land on busy
+geometry; animated tiles are coloured but still.
 
-Inherited from Battle Art's Gen 2 port, and documented there: the **1ST** and
-**3RD** first-person rungs are Gen 1 only, Gold's battle HUD is authored for a
-white field so a name box can land on busy geometry, and animated tiles (water,
-flowers) are coloured but still.
+No mod here distributes ROMs, extracted game data, or Pokémon-copyrighted
+art, audio or text. Everything shown at runtime comes from your own cartridge
+dump, imported by the engine on your machine.

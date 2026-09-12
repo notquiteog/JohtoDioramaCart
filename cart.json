@@ -2,7 +2,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "base": "crystal",
   "seal": "sealed+",
   "mods": [
@@ -17,8 +17,15 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.11.1",
-      "sha256": "dee9fa0b2fd2c7c7247dc4636cb183950e123dd13b85eb8e91693c858e8b3499"
+      "version": "1.12.0",
+      "sha256": "2e9d4a34f865b5e5a7cf3e4133b49be1643b803c149cf3f6811ccbdb6372dd01"
+    },
+    {
+      "id": "free_fly",
+      "source": "github",
+      "repo": "notquiteog/free_fly",
+      "version": "1.8.1",
+      "sha256": "773dc1bfbba7c1b42c5f8ddd3c94cede8f7f97ddf8422f571425770af0c5df24"
     },
     {
       "id": "npc_bubbles",
@@ -26,6 +33,13 @@
       "repo": "notquiteog/gen1recomp-npc-bubbles",
       "version": "2.3.13",
       "sha256": "4e49f0079391e7a7f6e507f48721110f8d7e4d30355198585c62555cac22bdb9"
+    },
+    {
+      "id": "wild_skies",
+      "source": "github",
+      "repo": "shanehudson-gen1recomp-mods/wild_skies",
+      "version": "1.12.0",
+      "sha256": "9932561e0d2cc119fc94c72df40f93bb15c905868a4d0cd71b42f08f8f9f6d92"
     },
     {
       "id": "crystal_animated_sprites_with_shiny_visuals",
@@ -38,7 +52,9 @@
   "load_order": [
     "overworld_wild_spawns",
     "BATTLE_ART_VOXEL_FORK",
+    "free_fly",
     "npc_bubbles",
+    "wild_skies",
     "crystal_animated_sprites_with_shiny_visuals"
   ]
 }
