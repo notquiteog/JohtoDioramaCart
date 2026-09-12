@@ -3,6 +3,15 @@
 A version-pinned Gen1Recomp cart for **Pokémon Crystal**: Johto as a 3D
 diorama, with the battles fought on it and a FLY user to cross it.
 
+## Install
+
+Download the `johto_diorama-<version>.g1rcart` asset from the
+[latest release](https://github.com/notquiteog/JohtoDioramaCart/releases/latest)
+and drop it into your save directory's `carts/` folder (or import it from the
+launcher's Custom Carts panel). The first boot of the cart resolves and
+installs the six pinned mods itself; each is fetched at the exact build
+pinned in `cart.json` and verified against its published `sha256sums.txt`.
+
 This bundle ships no code. It is a pin list — every mod on it is published
 separately and fetched at its exact build.
 
