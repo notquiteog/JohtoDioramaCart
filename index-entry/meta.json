@@ -1,0 +1,59 @@
+{
+  "id": "johto_diorama",
+  "title": "Johto Diorama",
+  "author": "notquiteog",
+  "summary": "Johto as a 3D diorama with the battles staged on it: the voxel overworld, visible wild Pokemon, NPC speech bubbles and Crystal's animated sprites, pinned together for Crystal.",
+  "version": "1.0.0",
+  "base": "crystal",
+  "seal": "sealed+",
+  "shell": "#4a9d5f",
+  "finish": "holo",
+  "tags": [
+    "cart",
+    "bundle",
+    "crystal",
+    "johto",
+    "3d",
+    "voxel",
+    "graphics"
+  ],
+  "repo": "https://github.com/notquiteog/JohtoDioramaCart",
+  "github": "notquiteog/JohtoDioramaCart",
+  "automatic_version_check": true,
+  "mods": [
+    {
+      "id": "overworld_wild_spawns",
+      "source": "github",
+      "repo": "YoDrehDenSwagAuf/overworld-spawn-mod",
+      "version": "2.1.9",
+      "sha256": "0ac172cd0f463f78f9544d8a02cc31596655699e879d9a02895ae5aef22923dd"
+    },
+    {
+      "id": "BATTLE_ART_VOXEL_FORK",
+      "source": "github",
+      "repo": "notquiteog/DramaticShapeVoxelMod",
+      "version": "1.11.1",
+      "sha256": "dee9fa0b2fd2c7c7247dc4636cb183950e123dd13b85eb8e91693c858e8b3499"
+    },
+    {
+      "id": "npc_bubbles",
+      "source": "github",
+      "repo": "notquiteog/gen1recomp-npc-bubbles",
+      "version": "2.3.13",
+      "sha256": "4e49f0079391e7a7f6e507f48721110f8d7e4d30355198585c62555cac22bdb9"
+    },
+    {
+      "id": "crystal_animated_sprites_with_shiny_visuals",
+      "source": "github",
+      "repo": "notquiteog/crystal_animated_sprites_with_shiny_visuals",
+      "version": "2.0.4",
+      "sha256": "d2dfd11936ef85f86c22653f808f8269598171555156ae0a29e62f0b26e77a82"
+    }
+  ],
+  "load_order": [
+    "overworld_wild_spawns",
+    "BATTLE_ART_VOXEL_FORK",
+    "npc_bubbles",
+    "crystal_animated_sprites_with_shiny_visuals"
+  ]
+}
