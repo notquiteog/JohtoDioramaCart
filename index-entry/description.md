@@ -18,7 +18,7 @@ For **Pokémon Crystal**. Six mods, pinned by digest.
 | mod | build | what it does here |
 | --- | --- | --- |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
-| Battle Art Voxel Fork | 1.12.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified |
+| Battle Art Voxel Fork | 1.12.1 | the diorama, 3D-BTL staged on it, Johto's tiles classified |
 | Free Fly | 1.8.1 | a FLY user carries you over the map; land anywhere walkable |
 | NPC Bubbles | 2.3.13 | speech bubbles over NPCs |
 | Wild Skies | 1.12.0 | flocks of local flying Pokémon, perching on rooftops |
@@ -38,7 +38,9 @@ credit for the mods belongs upstream.
 
 - **Battle Art Voxel Fork** is the Gen 2 port itself. Before 1.12.0 nothing on
   a Johto map was classified at all, so trees, buildings and fences were the
-  same 16px box wearing their own facade art on the roof.
+  same 16px box wearing their own facade art on the roof; 1.12.1 then made
+  them build right — real building heights, doors in their facades, and
+  characters standing on the ground rather than a block above it.
 - **Free Fly** flew on Crystal but the camera never lifted with the rider.
   MIT upstream, so the fork carries that licence unchanged.
 - **NPC Bubbles** declared no `games` key, so a Crystal boot skipped it.
