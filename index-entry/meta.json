@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "Pokémon Crystal in 3D: Battle Art scenery, free flight, modern menus, storage, running, companions, online trading.",
-  "version": "1.3.3",
+  "version": "1.4.0",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -100,6 +100,13 @@
       "sha256": "9932561e0d2cc119fc94c72df40f93bb15c905868a4d0cd71b42f08f8f9f6d92"
     },
     {
+      "id": "double_battles",
+      "source": "github",
+      "repo": "notquiteog/double-battles-gen2",
+      "version": "0.8.0",
+      "sha256": "733b8fdd0e2502f1f650cf01c5395a595fc585d965dc2694d63df0a48cc985d9"
+    },
+    {
       "id": "crystal_animated_sprites_with_shiny_visuals",
       "source": "github",
       "repo": "notquiteog/crystal_animated_sprites_with_shiny_visuals",
@@ -119,6 +126,7 @@
     "npc_bubbles",
     "running_shoes",
     "wild_skies",
+    "double_battles",
     "crystal_animated_sprites_with_shiny_visuals"
   ]
 }

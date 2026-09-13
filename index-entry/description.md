@@ -17,7 +17,7 @@ battle is staged on the map's nearest clear ground — the diorama stays visible
 in the panels' margins and through attack animations. Then a FLY user picks
 you up and the camera rises with you.
 
-For **Pokémon Crystal**. Twelve mods, pinned by digest.
+For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 
 ## What's on it
 
@@ -32,6 +32,7 @@ For **Pokémon Crystal**. Twelve mods, pinned by digest.
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | Modern Johto | 0.2.0 | optional texture modernisation, off by default |
 | NPC Bubbles | 2.3.13 | speech bubbles over NPCs |
+| Double Battles | 0.8.0 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
 | Running Shoes | 1.10.0 | hold to run |
 | Wild Skies | 1.12.0 | flocks of local flying Pokémon, perching on rooftops |
 | Crystal Animated Sprites with Shiny Visuals | 2.0.4 | animated battle sprites and shiny visuals |
@@ -41,7 +42,7 @@ in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
 `pokemon.sprite` hook, and the one that loads last has the outermost say on
 which art a battle draws.
 
-`seal` is `sealed+`: the list is fixed, but you can switch any of the twelve
+`seal` is `sealed+`: the list is fixed, but you can switch any of the thirteen
 off.
 
 ## Forks

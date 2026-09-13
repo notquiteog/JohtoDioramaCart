@@ -11,7 +11,7 @@ Download the `johto_diorama-<version>.g1rcart` asset from the
 [latest release](https://github.com/notquiteog/JohtoDioramaCart/releases/latest)
 and drop it into your save directory's `carts/` folder (or import it from the
 launcher's Custom Carts panel). The first boot of the cart resolves and
-installs the twelve pinned mods itself; each is fetched at the exact build
+installs the thirteen pinned mods itself; each is fetched at the exact build
 pinned in `cart.json` and verified against its published sha256.
 
 This bundle ships no code. It is a pin list — every mod on it is published
@@ -30,6 +30,7 @@ separately and fetched at its exact build.
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | [Modern Johto](https://github.com/MadeinTaly/gen1recomp-modern-johto) | 0.2.0 | optional texture modernisation, off by default |
 | [NPC Bubbles](https://github.com/notquiteog/gen1recomp-npc-bubbles) | 2.3.13 | speech bubbles over NPCs |
+| [Double Battles](https://github.com/notquiteog/double-battles-gen2) | 0.8.0 | wild doubles and trainer 2v2 on Crystal, run by the engine's own battle sim, staged on the diorama |
 | [Running Shoes](https://github.com/MadeinTaly/gen1recomp-running-shoes) | 1.10.0 | hold to run |
 | [Wild Skies](https://github.com/shanehudson-gen1recomp-mods/wild_skies) | 1.12.0 | flocks of local flying Pokémon crossing the sky, perching on rooftops |
 | [Crystal Animated Sprites with Shiny Visuals](https://github.com/notquiteog/crystal_animated_sprites_with_shiny_visuals) | 2.0.4 | animated battle sprites and shiny visuals |
@@ -39,11 +40,11 @@ in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
 `pokemon.sprite` hook, and the one that loads last has the outermost say on
 which art a battle draws.
 
-`seal` is `sealed+`: the list is fixed, but you can switch any of the twelve
+`seal` is `sealed+`: the list is fixed, but you can switch any of the thirteen
 off. Modern Johto ships with its balance switches at the author's off
-defaults.
+defaults, and Double Battles' WILD DOUBLES ships at SOMETIMES.
 
-## Why six of the twelve are forks
+## Why six of the thirteen are forks
 
 Each fork is a compatibility fix and nothing else; all credit for the mods
 belongs upstream.
@@ -92,6 +93,13 @@ belongs upstream.
   `panelFn` argument and forwarded none, silently discarding whatever the
   caller asked to be drawn.
 
+- **Double Battles** is the Crystal 2v2 fork: the stock mod's Gen 1 half
+  unchanged, plus a Gen 2 layer that runs real two-a-side rounds on the
+  engine's own battle sim (`useMove`, priority, speed, experience), stages
+  both foes on the diorama through Battle Art's staged textures, and draws
+  the second foe's HP plate on the engine screen. Wild doubles roll the
+  second foe from the map's own table; roamers stay strictly 1v1. WILD
+  DOUBLES defaults to SOMETIMES and TRAINER 2V2 to on.
 - **Gen1Online+** re-publishes Gen1Online+ (gamecorner-033/Gen1Online
   v0.5.0) at notquiteog/gen1online-plus with three online fixes: the server
   address is always asked for on connect (nothing connects silently to the
