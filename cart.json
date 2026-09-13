@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -11,9 +11,9 @@
     {
       "id": "gen1online-plus",
       "source": "github",
-      "repo": "gamecorner-033/Gen1Online",
-      "version": "0.5.0",
-      "sha256": "dbb5cc024ca7bb9b6dc1d491ff567b6c3929f641c3c9b93319d76956414773da"
+      "repo": "notquiteog/gen1online-plus",
+      "version": "0.5.1",
+      "sha256": "05178aa26c3a7b5704b67830ec2267e119686660dc3adae1f560c5c5dde53cd6"
     },
     {
       "id": "kanto_gear",
@@ -33,8 +33,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.13.0",
-      "sha256": "70dce2c93fdde7ce0865864f312fae46ff1ebe8f1b9737f2b99445ab3f057eec"
+      "version": "1.14.0",
+      "sha256": "d2e7e552724b88be850393b148a690eab54618aaa6b459f628c5604f7ec45438"
     },
     {
       "id": "free_fly",

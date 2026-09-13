@@ -21,10 +21,10 @@ separately and fetched at its exact build.
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| [Gen1Online+](https://github.com/gamecorner-033/Gen1Online) | 0.5.0 | online multiplayer for Crystal: GTS trading, PVP battles and the Casino Lounge |
+| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.1 | online multiplayer for Crystal: GTS trading, PVP battles and the Casino Lounge |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.13.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.14.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery row |
 | [Free Fly](https://github.com/notquiteog/free_fly) | 1.8.2 | a FLY user carries you over the map; land anywhere walkable |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -43,7 +43,7 @@ which art a battle draws.
 off. Modern Johto ships with its balance switches at the author's off
 defaults.
 
-## Why five of the twelve are forks
+## Why six of the twelve are forks
 
 Each fork is a compatibility fix and nothing else; all credit for the mods
 belongs upstream.
@@ -67,7 +67,12 @@ belongs upstream.
   break with the engine instead of leaving static copies. It also keeps the
   diorama visible around the Gen 2 battle panels and through attack
   animations, and carries the applicable DRAMALESS_SHAPE mouse-release and
-  menu-click fixes.
+  menu-click fixes. 1.14.0 adds the HD-2D reading behind a CRYSTAL SCENERY
+  options row: compact broadleaf crowns for Crystal's dense borders,
+  whole-drawing furniture for the common house, Mart, Center and bedroom
+  tilesets, wood-grain fences with beveled caps, and shoreline rocks — with
+  SOURCE ART keeping the previous reading. It also supports Modern Johto's
+  retiled ledges.
 - **Free Fly** flew on Crystal but the camera never lifted, so the diorama
   filled with a very large trainer standing on the grass. Gold's `World`
   drives its own camera every frame, so the mod's ground-plane lift is
@@ -87,9 +92,18 @@ belongs upstream.
   `panelFn` argument and forwarded none, silently discarding whatever the
   caller asked to be drawn.
 
-**Gen1Online+, Kanto Gear, Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running
-Shoes and Wild Skies are pinned upstream unchanged** — all seven already
-declare Gen 2 and load clean.
+- **Gen1Online+** re-publishes Gen1Online+ (gamecorner-033/Gen1Online
+  v0.5.0) at notquiteog/gen1online-plus with three online fixes: the server
+  address is always asked for on connect (nothing connects silently to the
+  shipped default), every sync stamps the sealed cart's own fingerprint so
+  future quest mods change the online room automatically instead of
+  desyncing players, and a self-hostable cart-aware server ships in the
+  fork's `tools/`. No gameplay edits; the official server's version
+  handshake still accepts it.
+
+**Kanto Gear, Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running Shoes and
+Wild Skies are pinned upstream unchanged** — all six already declare Gen 2
+and load clean.
 
 ## Followers are already here
 
@@ -200,7 +214,7 @@ Installed from exactly these pinned artifacts and booted on Crystal
 
 - all twelve load in the pinned order, **zero loader errors**;
 - the boot was checked a second time from the packaged files — the release
-  `.g1rcart` in a clean save's `carts/` folder, the pinned Battle Art 1.13.0
+  `.g1rcart` in a clean save's `carts/` folder, the pinned Battle Art 1.14.0
   zip as the installed mod — with every pin's version loading and the game
   reaching ready;
 - New Bark Town draws as a coloured diorama with real buildings, roofs and

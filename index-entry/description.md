@@ -23,10 +23,10 @@ For **Pokémon Crystal**. Twelve mods, pinned by digest.
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| Gen1Online+ | 0.5.0 | online multiplayer: GTS trading, PVP battles and the Casino Lounge |
+| Gen1Online+ | 0.5.1 | online multiplayer: GTS trading, PVP battles and the Casino Lounge, server always asked for, sync scoped to the sealed cart |
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
-| Battle Art Voxel Fork | 1.13.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture and rock models |
+| Battle Art Voxel Fork | 1.14.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
 | Free Fly | 1.8.2 | a FLY user carries you over the map; land anywhere walkable |
 | Gen 2 Modern UI | 1.0.15 | modern menus for the start and PC screens |
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -46,7 +46,7 @@ off.
 
 ## Forks
 
-Five of the twelve are compatibility forks. Each is a fix and nothing else;
+Six of the twelve are compatibility forks. Each is a fix and nothing else;
 all credit for the mods belongs upstream.
 
 - **Battle Art Voxel Fork** is the Gen 2 port itself. Before 1.12.0 nothing on
@@ -59,7 +59,10 @@ all credit for the mods belongs upstream.
   1.13.0 is the Crystal scenery pass: whole-drawing furniture at table
   height, round canopied trees, thin retaining lips, coastal and ocean rock
   models, and live Strength/Rock Smash boulders — plus battle surround and
-  attack-animation visibility on Gen 2.
+  attack-animation visibility on Gen 2. 1.14.0 adds an HD-2D reading
+  (SOURCE ART keeps the previous one): broadleaf crowns for Crystal's dense
+  borders, the common interiors as whole drawings, wood-grain fences and
+  shoreline rocks, and Modern Johto's retiled ledges.
 - **Free Fly** flew on Crystal but the camera never lifted with the rider;
   1.8.2 also fixes the walk frame a 3D pipeline poses through. MIT upstream,
   so the fork carries that licence unchanged.
@@ -69,8 +72,10 @@ all credit for the mods belongs upstream.
 - **Crystal Animated Sprites** dropped the `panelFn` argument when wrapping
   Gold's `drawSceneBody`, discarding whatever a caller asked to be drawn.
 
-Gen1Online+, Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running Shoes and
-Wild Skies are pinned upstream unchanged.
+Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running Shoes and
+Wild Skies are pinned upstream unchanged. Gen1Online+ is pinned from our
+fork: the server address is always asked for, and sync is scoped to the
+sealed cart so future quest mods never split the player base.
 
 ## No separate follower mod
 
