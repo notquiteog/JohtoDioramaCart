@@ -11,7 +11,7 @@ Download the `johto_diorama-<version>.g1rcart` asset from the
 [latest release](https://github.com/notquiteog/JohtoDioramaCart/releases/latest)
 and drop it into your save directory's `carts/` folder (or import it from the
 launcher's Custom Carts panel). The first boot of the cart resolves and
-installs the eleven pinned mods itself; each is fetched at the exact build
+installs the twelve pinned mods itself; each is fetched at the exact build
 pinned in `cart.json` and verified against its published sha256.
 
 This bundle ships no code. It is a pin list — every mod on it is published
@@ -21,6 +21,7 @@ separately and fetched at its exact build.
 
 | mod | build | what it does here |
 | --- | --- | --- |
+| [Gen1Online+](https://github.com/gamecorner-033/Gen1Online) | 0.5.0 | online multiplayer for Crystal: GTS trading, PVP battles and the Casino Lounge |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
 | [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.13.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models |
@@ -38,11 +39,11 @@ in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
 `pokemon.sprite` hook, and the one that loads last has the outermost say on
 which art a battle draws.
 
-`seal` is `sealed+`: the list is fixed, but you can switch any of the eleven
+`seal` is `sealed+`: the list is fixed, but you can switch any of the twelve
 off. Modern Johto ships with its balance switches at the author's off
 defaults.
 
-## Why five of the eleven are forks
+## Why five of the twelve are forks
 
 Each fork is a compatibility fix and nothing else; all credit for the mods
 belongs upstream.
@@ -86,9 +87,9 @@ belongs upstream.
   `panelFn` argument and forwarded none, silently discarding whatever the
   caller asked to be drawn.
 
-**Kanto Gear, Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running Shoes and
-Wild Skies are pinned upstream unchanged** — all six already declare Gen 2
-and load clean.
+**Gen1Online+, Kanto Gear, Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running
+Shoes and Wild Skies are pinned upstream unchanged** — all seven already
+declare Gen 2 and load clean.
 
 ## Followers are already here
 
@@ -197,7 +198,7 @@ birds out of the player's lane.
 Installed from exactly these pinned artifacts and booted on Crystal
 (gen1recomp 0.2.59, software OpenGL under Xvfb):
 
-- all eleven load in the pinned order, **zero loader errors**;
+- all twelve load in the pinned order, **zero loader errors**;
 - the boot was checked a second time from the packaged files — the release
   `.g1rcart` in a clean save's `carts/` folder, the pinned Battle Art 1.13.0
   zip as the installed mod — with every pin's version loading and the game
@@ -209,7 +210,8 @@ Installed from exactly these pinned artifacts and booted on Crystal
 - a wild battle is staged on the ground and the diorama stays visible in the
   panels' margins and through attack animation background clears, mons
   standing on the terrain as billboards under Gold's HUD;
-- the eleven-mod driver check exercises Running Shoes and Free Fly walk
+- the eleven-mod driver check (Gen1Online+ adds online screens it does not
+  touch) exercises Running Shoes and Free Fly walk
   phases, the modern start/PC menus, Gen 3 Boxes and box backs, the summary
   screen, and Modern Johto's optional split hook without mutating shared
   type data;

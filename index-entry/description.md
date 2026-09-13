@@ -17,12 +17,13 @@ battle is staged on the map's nearest clear ground — the diorama stays visible
 in the panels' margins and through attack animations. Then a FLY user picks
 you up and the camera rises with you.
 
-For **Pokémon Crystal**. Eleven mods, pinned by digest.
+For **Pokémon Crystal**. Twelve mods, pinned by digest.
 
 ## What's on it
 
 | mod | build | what it does here |
 | --- | --- | --- |
+| Gen1Online+ | 0.5.0 | online multiplayer: GTS trading, PVP battles and the Casino Lounge |
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
 | Battle Art Voxel Fork | 1.13.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture and rock models |
@@ -40,12 +41,12 @@ in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
 `pokemon.sprite` hook, and the one that loads last has the outermost say on
 which art a battle draws.
 
-`seal` is `sealed+`: the list is fixed, but you can switch any of the eleven
+`seal` is `sealed+`: the list is fixed, but you can switch any of the twelve
 off.
 
 ## Forks
 
-Five of the eleven are compatibility forks. Each is a fix and nothing else;
+Five of the twelve are compatibility forks. Each is a fix and nothing else;
 all credit for the mods belongs upstream.
 
 - **Battle Art Voxel Fork** is the Gen 2 port itself. Before 1.12.0 nothing on
@@ -68,7 +69,7 @@ all credit for the mods belongs upstream.
 - **Crystal Animated Sprites** dropped the `panelFn` argument when wrapping
   Gold's `drawSceneBody`, discarding whatever a caller asked to be drawn.
 
-Kanto Gear, Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running Shoes and
+Gen1Online+, Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running Shoes and
 Wild Skies are pinned upstream unchanged.
 
 ## No separate follower mod
@@ -81,7 +82,7 @@ EX's option rows and migrates its save keys.
 ## Verified
 
 Booted on Crystal (gen1recomp 0.2.59) from exactly these pinned artifacts:
-all eleven load in the pinned order with **zero loader errors**, the
+all twelve load in the pinned order with **zero loader errors**, the
 overworld draws as a diorama with round scenery and furniture-height
 interiors, a wild battle is staged on its ground and keeps the diorama
 visible through its margins and animations, the modern start/PC menus and
