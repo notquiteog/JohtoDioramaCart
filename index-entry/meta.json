@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "Pokémon Crystal in 3D: Battle Art scenery, free flight, modern menus, storage, running, companions, online trading.",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -26,8 +26,8 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.5.1",
-      "sha256": "05178aa26c3a7b5704b67830ec2267e119686660dc3adae1f560c5c5dde53cd6"
+      "version": "0.5.2",
+      "sha256": "bc8da6b6c8cf37195e50927672e146535baf26ee2d1eeccf9c3effbfd4861193"
     },
     {
       "id": "kanto_gear",
@@ -51,11 +51,11 @@
       "sha256": "9e452be472c10b293229577c8d74bd80ac3d31b3c75089bf372f8864381f3ea0"
     },
     {
-      "id": "free_fly",
+      "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
-      "repo": "notquiteog/free_fly",
-      "version": "1.8.2",
-      "sha256": "8f4c20b18e1df113d41b4a2d3f478497f54a8236415b3262c28a9a4708911eb1"
+      "repo": "notquiteog/dramatic-sky-ride",
+      "version": "0.2.19",
+      "sha256": "fc078f21160e9fc88d617c256349e4f38fce15a04dd39a40783018671ccc4e83"
     },
     {
       "id": "gen2_modern_ui",
@@ -119,7 +119,6 @@
     "kanto_gear",
     "overworld_wild_spawns",
     "BATTLE_ART_VOXEL_FORK",
-    "free_fly",
     "gen2_modern_ui",
     "gen3_box",
     "modern_johto",
@@ -127,6 +126,7 @@
     "running_shoes",
     "wild_skies",
     "double_battles",
+    "DRAMATIC_SKY_RIDE",
     "crystal_animated_sprites_with_shiny_visuals"
   ]
 }

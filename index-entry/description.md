@@ -27,7 +27,7 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
 | Battle Art Voxel Fork | 1.14.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
-| Free Fly | 1.8.2 | a FLY user carries you over the map; land anywhere walkable |
+| Dramatic Sky Ride | 0.2.19 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | Gen 2 Modern UI | 1.0.15 | modern menus for the start and PC screens |
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | Modern Johto | 0.2.0 | optional texture modernisation, off by default |
@@ -64,9 +64,10 @@ all credit for the mods belongs upstream.
   (SOURCE ART keeps the previous one): broadleaf crowns for Crystal's dense
   borders, the common interiors as whole drawings, wood-grain fences and
   shoreline rocks, and Modern Johto's retiled ledges.
-- **Free Fly** flew on Crystal but the camera never lifted with the rider;
-  1.8.2 also fixes the walk frame a 3D pipeline poses through. MIT upstream,
-  so the fork carries that licence unchanged.
+- **Dramatic Sky Ride** is burgerslayer7's mount system forked for the
+  Crystal rider draw crash: the crop file is verified through the engine's
+  own asset reader, with the live player renderer as the fallback.
+  Generation 1 untouched.
 - **Gen 2 Modern UI** is Modern UI (FAFF0x/gen2recomp) re-published
   unmodified for an installable digest pin. No code changes.
 - **NPC Bubbles** declared no `games` key, so a Crystal boot skipped it.

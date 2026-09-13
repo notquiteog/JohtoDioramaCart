@@ -25,7 +25,7 @@ separately and fetched at its exact build.
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
 | [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.14.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery row |
-| [Free Fly](https://github.com/notquiteog/free_fly) | 1.8.2 | a FLY user carries you over the map; land anywhere walkable |
+| [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.19 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | [Modern Johto](https://github.com/MadeinTaly/gen1recomp-modern-johto) | 0.2.0 | optional texture modernisation, off by default |
@@ -74,15 +74,15 @@ belongs upstream.
   tilesets, wood-grain fences with beveled caps, and shoreline rocks — with
   SOURCE ART keeping the previous reading. It also supports Modern Johto's
   retiled ledges.
-- **Free Fly** flew on Crystal but the camera never lifted, so the diorama
-  filled with a very large trainer standing on the grass. Gold's `World`
-  drives its own camera every frame, so the mod's ground-plane lift is
-  skipped there by design — and the placed-camera seam that would have
-  covered it was gated to the 75° rung and read a `Game.renderer` that does
-  not exist on Gen 2. 1.8.2 fixes the walk frame the 1.8.1 camera work had
-  pinned to the stand pose for any 3D pipeline that poses the player through
-  `entity:pose()` — which is exactly what Battle Art does. MIT-licensed
-  upstream, so the fork is clean.
+- **Dramatic Sky Ride** is burgerslayer7's mount system — land, water and
+  air, Suicune's amphibious traversal — forked for one fix: the Crystal
+  rider crashed the draw because the mod's crop file landed where the
+  engine's sprite renderer cannot read it (mod filesystem writes are
+  sandbox-rerouted on this host). The fork verifies the crop through the
+  engine's own asset reader and falls back to the live player renderer
+  when it cannot be opened. Generation 1 is untouched, and the declared
+  Free Fly conflict is now free to be honest — Free Fly left the cart in
+  the same release.
 - **Gen 2 Modern UI** is Modern UI (FAFF0x/gen2recomp) re-published
   unmodified at notquiteog/gen2recomp: the upstream archive had no
   installable release build for a digest pin, so the fork publishes the
@@ -191,29 +191,19 @@ of those is already native. Forced there it fails outright at
 `battle/crystal_presentation.lua:124`, asserting a `BLIZZARD` battle-anim
 that does not exist in Gold's differently-keyed registry.
 
-### And the flying mod that lost
+### And the flying mod that left
 
-[Dramatic Sky Ride](https://github.com/burgerslayer7/dramatic-sky-ride)
-0.2.18 is the bigger mount system — land, water and air, Suicune's amphibious
-traversal, badge progression — and it declares a hard conflict with Free Fly,
-so this was a choice between them rather than a ranking.
-
-Free Fly won on evidence. Both load clean on Crystal, so takeoff was driven
-through the real seam, the party-submenu row each one adds. Free Fly offered
-`FREEFLY` and flew. Dramatic Sky Ride offered `RIDE & FLY` and raised:
-
-```
-src/render/Assets.lua:61: Could not open file
-dramatic_sky_ride_runtime/rider_SPRITE_CHRIS_c13_y1.png. Does not exist.
-```
-
-Its composed rider sheet is keyed to the player sprite, and Crystal's is
-`SPRITE_CHRIS`. Its own `GEN2_BETA_TESTING.md` calls Gen 2 an *"unverified
-Gen1Recomp++ / Gold compatibility beta"*, and it ships no tests. Free Fly is
-also the mod the rest of this family is built around: `wild_skies` and
-`double_battles` share a byte-identical `lib/shared/skylib.lua` with it, and
-Wild Skies reads Free Fly's exported flight state in four places to keep its
-birds out of the player's lane.
+[Free Fly](https://github.com/notquiteog/free_fly) held the mount slot
+through 1.4.0 and flew on evidence: it offered `FREEFLY` through the
+party-submenu row while Dramatic Sky Ride raised a missing rider sheet on
+Crystal (`rider_SPRITE_CHRIS`). That crash is now fixed in the
+[Dramatic Sky Ride fork](https://github.com/notquiteog/dramatic-sky-ride)
+— the crop file is verified through the engine's own asset reader, with
+the live player renderer as the fallback — and DSR brings the bigger
+system: land, water and air mounts, Suicune's amphibious traversal, badge
+progression. Free Fly left the cart in the same release its rival's crash
+was fixed, which is the fairest rematch either of them will get. Its
+declared conflict with Free Fly stays: run both and both want the mount.
 
 ## Verified
 
@@ -251,18 +241,14 @@ Inherited from Battle Art's Gen 2 port, and documented there:
 - Gold's battle HUD is authored for a white field, so a name or HP box can
   land on busy geometry;
 - animated tiles (water, flowers) are coloured but still;
-- Free Fly's rider wears the trainer sprite rather than trainer-on-mount
-  until a sprite pack registers in-air art through its
-  `registerSpriteSource` API.
 
 ## Licensing
 
 Wilds of Kanto, NPC Bubbles, Crystal Animated Sprites and Modern UI declare
 no licence upstream, so no redistribution terms are granted anywhere in that
 chain; each fork or re-publish states its provenance and claims nothing.
-Kanto Gear, Free Fly, Wild Skies, Gen 3 Boxes, Modern Johto and Running
-Shoes are MIT; the Free Fly fork carries that licence and its copyright
-notice unchanged.
+Kanto Gear, Wild Skies, Gen 3 Boxes, Modern Johto and Running Shoes are
+MIT. Free Fly left the cart in 1.5.0 and is no longer pinned.
 
 No mod here distributes ROMs, extracted game data, or Pokémon-copyrighted
 art, audio or text. Everything shown at runtime comes from your own
