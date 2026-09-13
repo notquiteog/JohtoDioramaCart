@@ -1,7 +1,9 @@
 # Johto Diorama
 
-A version-pinned Gen1Recomp cart for **Pokémon Crystal**: Johto as a 3D
-diorama, with the battles fought on it and a FLY user to cross it.
+A version-pinned Gen1Recomp cart for **Pokémon Crystal**: Battle Art's 3D
+diorama with round scenery and real furniture, the battles fought on it, a
+FLY user to cross it, modern menus, PC storage, running shoes and the party
+follower.
 
 ## Install
 
@@ -9,8 +11,8 @@ Download the `johto_diorama-<version>.g1rcart` asset from the
 [latest release](https://github.com/notquiteog/JohtoDioramaCart/releases/latest)
 and drop it into your save directory's `carts/` folder (or import it from the
 launcher's Custom Carts panel). The first boot of the cart resolves and
-installs the six pinned mods itself; each is fetched at the exact build
-pinned in `cart.json` and verified against its published `sha256sums.txt`.
+installs the eleven pinned mods itself; each is fetched at the exact build
+pinned in `cart.json` and verified against its published sha256.
 
 This bundle ships no code. It is a pin list — every mod on it is published
 separately and fetched at its exact build.
@@ -19,22 +21,28 @@ separately and fetched at its exact build.
 
 | mod | build | what it does here |
 | --- | --- | --- |
+| [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.12.2 | the diorama, 3D-BTL staged on it, and Johto's tiles classified |
-| [Free Fly](https://github.com/notquiteog/free_fly) | 1.8.1 | a FLY user carries you over the map; land anywhere walkable |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.13.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models |
+| [Free Fly](https://github.com/notquiteog/free_fly) | 1.8.2 | a FLY user carries you over the map; land anywhere walkable |
+| [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
+| [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
+| [Modern Johto](https://github.com/MadeinTaly/gen1recomp-modern-johto) | 0.2.0 | optional texture modernisation, off by default |
 | [NPC Bubbles](https://github.com/notquiteog/gen1recomp-npc-bubbles) | 2.3.13 | speech bubbles over NPCs |
+| [Running Shoes](https://github.com/MadeinTaly/gen1recomp-running-shoes) | 1.10.0 | hold to run |
 | [Wild Skies](https://github.com/shanehudson-gen1recomp-mods/wild_skies) | 1.12.0 | flocks of local flying Pokémon crossing the sky, perching on rooftops |
 | [Crystal Animated Sprites with Shiny Visuals](https://github.com/notquiteog/crystal_animated_sprites_with_shiny_visuals) | 2.0.4 | animated battle sprites and shiny visuals |
 
 The order above is the load order, and it is the order this cart was verified
-in — it is priority-ascending, which is what the loader picks on its own. It
-matters: Battle Art and Crystal Animated Sprites both wrap the engine's
+in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
 `pokemon.sprite` hook, and the one that loads last has the outermost say on
 which art a battle draws.
 
-`seal` is `sealed+`: the list is fixed, but you can switch any of the six off.
+`seal` is `sealed+`: the list is fixed, but you can switch any of the eleven
+off. Modern Johto ships with its balance switches at the author's off
+defaults.
 
-## Why four of the six are forks
+## Why five of the eleven are forks
 
 Each fork is a compatibility fix and nothing else; all credit for the mods
 belongs upstream.
@@ -48,26 +56,39 @@ belongs upstream.
   their drawing instead of a 16px slab, doors sit in their own facades, and
   characters stand on the ground — `groundAt` had been answering 16px for
   every cell of every map, so everyone in Johto floated a block in the air.
-  1.12.2 is the height pass that 1.12.1's overcorrections needed: trees and
-  bushes are one cell again instead of leaning two into the path, interiors
-  keep the class height so Elm's Lab's tables are furniture and not 48px
-  towers, and each town wears its own roofs — the palette bake had keyed on
-  the tileset, so New Bark came up in Cherrygrove's pink after one visit
-  there.
+  1.12.2 was the height pass: trees and bushes are one cell again instead of
+  leaning two into the path, interiors keep the class height, and each town
+  wears its own roofs. 1.13.0 is the Crystal scenery pass: Mom's kitchen and
+  Elm's lab furniture modelled as whole drawings at furniture height with the
+  starter balls ON the table, two-cell border trees carved into round
+  canopies, three-pixel retaining lips with joined corners, coastal and
+  ocean rock models, and live Strength/Rock Smash boulders that move and
+  break with the engine instead of leaving static copies. It also keeps the
+  diorama visible around the Gen 2 battle panels and through attack
+  animations, and carries the applicable DRAMALESS_SHAPE mouse-release and
+  menu-click fixes.
 - **Free Fly** flew on Crystal but the camera never lifted, so the diorama
   filled with a very large trainer standing on the grass. Gold's `World`
   drives its own camera every frame, so the mod's ground-plane lift is
   skipped there by design — and the placed-camera seam that would have
   covered it was gated to the 75° rung and read a `Game.renderer` that does
-  not exist on Gen 2. MIT-licensed upstream, so the fork is clean.
+  not exist on Gen 2. 1.8.2 fixes the walk frame the 1.8.1 camera work had
+  pinned to the stand pose for any 3D pipeline that poses the player through
+  `entity:pose()` — which is exactly what Battle Art does. MIT-licensed
+  upstream, so the fork is clean.
+- **Gen 2 Modern UI** is Modern UI (FAFF0x/gen2recomp) re-published
+  unmodified at notquiteog/gen2recomp: the upstream archive had no
+  installable release build for a digest pin, so the fork publishes the
+  byte-identical archive as v1.0.15. No code changes.
 - **NPC Bubbles** declared no `games` key, which means Gen 1 only, so a
   Crystal boot skipped it outright.
 - **Crystal Animated Sprites** wrapped Gold's `drawSceneBody` without its
   `panelFn` argument and forwarded none, silently discarding whatever the
   caller asked to be drawn.
 
-**Wilds of Kanto and Wild Skies are pinned upstream unchanged** — both
-already declare Gen 2 and load clean.
+**Kanto Gear, Wilds of Kanto, Gen 3 Boxes, Modern Johto, Running Shoes and
+Wild Skies are pinned upstream unchanged** — all six already declare Gen 2
+and load clean.
 
 ## Followers are already here
 
@@ -174,15 +195,24 @@ birds out of the player's lane.
 ## Verified
 
 Installed from exactly these pinned artifacts and booted on Crystal
-(gen1recomp 0.2.59):
+(gen1recomp 0.2.59, software OpenGL under Xvfb):
 
-- all six load, **zero loader errors**;
-- six render pipelines coexist (`voxel`, `tiltshift`, `owwild_ball_hud`,
-  `owwild_catching_tick`, `owwild_behavior_tick`, `npc_bubbles_overlay`);
+- all eleven load in the pinned order, **zero loader errors**;
+- the boot was checked a second time from the packaged files — the release
+  `.g1rcart` in a clean save's `carts/` folder, the pinned Battle Art 1.13.0
+  zip as the installed mod — with every pin's version loading and the game
+  reaching ready;
 - New Bark Town draws as a coloured diorama with real buildings, roofs and
-  trees; Route 29 has ledges and tall grass as shapes;
-- a wild battle is staged on the ground, mons standing on the terrain as
-  billboards under Gold's HUD;
+  round canopied trees; Route 29 has six-pixel ledges with their lip; Elm's
+  Lab and the player's house draw their furniture at table height with the
+  starter balls ON the ball table; the coast shows its rock models;
+- a wild battle is staged on the ground and the diorama stays visible in the
+  panels' margins and through attack animation background clears, mons
+  standing on the terrain as billboards under Gold's HUD;
+- the eleven-mod driver check exercises Running Shoes and Free Fly walk
+  phases, the modern start/PC menus, Gen 3 Boxes and box backs, the summary
+  screen, and Modern Johto's optional split hook without mutating shared
+  type data;
 - takeoff through the party submenu works and the camera lifts with it
   (`Voxel3D.camera` goes from `nil` to a placed camera mid-flight);
 - Wilds' follower engine reports `installed=true, ownerMode=wilds`.
@@ -203,11 +233,12 @@ Inherited from Battle Art's Gen 2 port, and documented there:
 
 ## Licensing
 
-Wilds of Kanto, NPC Bubbles and Crystal Animated Sprites declare no licence
-upstream, so no redistribution terms are granted anywhere in that chain; each
-fork states its provenance and claims nothing. Free Fly and Wild Skies are
-MIT (© 2026 Shane Hudson), and the Free Fly fork carries that licence and its
-copyright notice unchanged.
+Wilds of Kanto, NPC Bubbles, Crystal Animated Sprites and Modern UI declare
+no licence upstream, so no redistribution terms are granted anywhere in that
+chain; each fork or re-publish states its provenance and claims nothing.
+Kanto Gear, Free Fly, Wild Skies, Gen 3 Boxes, Modern Johto and Running
+Shoes are MIT; the Free Fly fork carries that licence and its copyright
+notice unchanged.
 
 No mod here distributes ROMs, extracted game data, or Pokémon-copyrighted
 art, audio or text. Everything shown at runtime comes from your own

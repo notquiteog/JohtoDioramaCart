@@ -3,11 +3,18 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
   "mods": [
+    {
+      "id": "kanto_gear",
+      "source": "github",
+      "repo": "AverageConsumer/kanto-gear",
+      "version": "3.2.9",
+      "sha256": "777a62dccc6fc3cd0fb1e422f4e37ede13b099c77f6afff64ebf830b31d34abb"
+    },
     {
       "id": "overworld_wild_spawns",
       "source": "github",
@@ -19,15 +26,36 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.12.2",
-      "sha256": "d8ac8b6564cabd7491b7794504497b2e99e7fca9a97d43839406322487172e44"
+      "version": "1.13.0",
+      "sha256": "70dce2c93fdde7ce0865864f312fae46ff1ebe8f1b9737f2b99445ab3f057eec"
     },
     {
       "id": "free_fly",
       "source": "github",
       "repo": "notquiteog/free_fly",
-      "version": "1.8.1",
-      "sha256": "773dc1bfbba7c1b42c5f8ddd3c94cede8f7f97ddf8422f571425770af0c5df24"
+      "version": "1.8.2",
+      "sha256": "8f4c20b18e1df113d41b4a2d3f478497f54a8236415b3262c28a9a4708911eb1"
+    },
+    {
+      "id": "gen2_modern_ui",
+      "source": "github",
+      "repo": "notquiteog/gen2recomp",
+      "version": "1.0.15",
+      "sha256": "a4d82f7cfdc6452d7b89c5cde02d62c9a534b8148445f2c426d86575220df69b"
+    },
+    {
+      "id": "gen3_box",
+      "source": "github",
+      "repo": "MadeinTaly/gen1recomp-gen3-boxes",
+      "version": "1.24.0",
+      "sha256": "a3749f3718b7edcda69d7aa3e5d525ef43724fd84afac1f8686858afd99e1e86"
+    },
+    {
+      "id": "modern_johto",
+      "source": "github",
+      "repo": "MadeinTaly/gen1recomp-modern-johto",
+      "version": "0.2.0",
+      "sha256": "1db28278956ce7200ba39075343f08c3d8009b6cbd77da7d5004b46156558731"
     },
     {
       "id": "npc_bubbles",
@@ -35,6 +63,13 @@
       "repo": "notquiteog/gen1recomp-npc-bubbles",
       "version": "2.3.13",
       "sha256": "4e49f0079391e7a7f6e507f48721110f8d7e4d30355198585c62555cac22bdb9"
+    },
+    {
+      "id": "running_shoes",
+      "source": "github",
+      "repo": "MadeinTaly/gen1recomp-running-shoes",
+      "version": "1.10.0",
+      "sha256": "d4a52154f9d6b9c81c2d7421b694beda79bd66ef45471d2b7064739a9f6ed37b"
     },
     {
       "id": "wild_skies",
@@ -52,11 +87,19 @@
     }
   ],
   "load_order": [
+    "kanto_gear",
     "overworld_wild_spawns",
     "BATTLE_ART_VOXEL_FORK",
     "free_fly",
+    "gen2_modern_ui",
+    "gen3_box",
+    "modern_johto",
     "npc_bubbles",
+    "running_shoes",
     "wild_skies",
     "crystal_animated_sprites_with_shiny_visuals"
-  ]
+  ],
+  "label": "art/CG3.png",
+  "finish": "holo",
+  "summary": "Pokémon Crystal in 3D: Battle Art, round scenery, free flight, modern menus, storage, running and companions."
 }
