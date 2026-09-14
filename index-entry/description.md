@@ -23,11 +23,11 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| Gen1Online+ | 0.5.1 | online multiplayer: GTS trading, PVP battles and the Casino Lounge, server always asked for, sync scoped to the sealed cart |
+| Gen1Online+ | 0.5.2 | online multiplayer: GTS trading, PVP battles and the Casino Lounge, server always asked for, sync scoped to the sealed cart |
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
-| Battle Art Voxel Fork | 1.14.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
-| Dramatic Sky Ride | 0.2.19 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
+| Battle Art Voxel Fork | 1.15.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
+| Dramatic Sky Ride | 0.2.20 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | Gen 2 Modern UI | 1.0.15 | modern menus for the start and PC screens |
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | Modern Johto | 0.2.0 | optional texture modernisation, off by default |
@@ -86,24 +86,21 @@ Wilds of Kanto absorbed the two people usually reach for. Its own source:
 runtime dependency."* It ships all 251 follower sprites, replaces Followers
 EX's option rows and migrates its save keys.
 
-## Verified
+## Verified and remaining reports
 
-Booted on Crystal (gen1recomp 0.2.59) from exactly these pinned artifacts:
-all twelve load in the pinned order with **zero loader errors**, the
-overworld draws as a diorama with round scenery and furniture-height
-interiors, a wild battle is staged on its ground and keeps the diorama
-visible through its margins and animations, the modern start/PC menus and
-Gen 3 boxes work, takeoff works through the party submenu and the camera
-rises with the rider. The boot was checked a second time from the packaged
-release files.
+The 1.6.0 pin set contains Battle Art 1.15.0 and Sky Ride 0.2.20. Desktop
+Crystal checks cover 16 maps/19 views, a horizontal healing bed and open bin
+in Elm's lab, smaller item balls, distinct foliage and native animated water
+textures reaching the rendered geometry. Both 1ST and 3RD support native,
+camera-relative Crystal grid steps. Staged battle HUD backplates remain.
 
-Known gaps: the 1ST and 3RD first-person rungs are Gen 1 only; Gold's battle
-HUD is authored for a white field, so a name or HP box can land on busy
-geometry — 1.14.2 adds HUD backplates; animated water now cycles on
-Crystal (experimental in voxel mode), flowers still. Doubles on Crystal are
-you-against-two for now (the player-side partner is the fork's next chunk),
-and Dramatic Sky Ride's Crystal mounts ride upstream's own beta.
+Online+ 0.5.2 still reports an unsupported Gen 2 map_scripts registration.
+A user-reported fast ground/water Pokemon on cart 1.5.0 was not reproduced in
+two instrumented current boots and remains open. Wilds presentation fallbacks
+and remaining bespoke prop coverage are also recorded in the repository README.
+Doubles/player-side partner work and Crystal mounts remain beta. Android
+hardware has not been validated in this batch.
 
-No mod here distributes ROMs, extracted game data, or Pokémon-copyrighted
-art, audio or text. Everything shown at runtime comes from your own cartridge
-dump, imported by the engine on your machine.
+The cart contains pins and CG3 label art, not a ROM. Game data is imported
+from the user's cartridge; Battle Art also supplies original procedural models
+and generated foliage artwork.

@@ -21,11 +21,11 @@ separately and fetched at its exact build.
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.1 | online multiplayer for Crystal: GTS trading, PVP battles and the Casino Lounge |
+| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.2 | online multiplayer for Crystal: GTS trading, PVP battles and the Casino Lounge |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.14.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery row |
-| [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.19 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.15.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery row |
+| [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.20 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | [Modern Johto](https://github.com/MadeinTaly/gen1recomp-modern-johto) | 0.2.0 | optional texture modernisation, off by default |
@@ -205,44 +205,30 @@ progression. Free Fly left the cart in the same release its rival's crash
 was fixed, which is the fairest rematch either of them will get. Its
 declared conflict with Free Fly stays: run both and both want the mount.
 
-## Verified
+## Verified in the 1.6.0 companion set
 
-Installed from exactly these pinned artifacts and booted on Crystal
-(gen1recomp 0.2.59, software OpenGL under Xvfb):
+Desktop Crystal testing on gen1recomp 0.2.59 with software OpenGL:
 
-- all twelve load in the pinned order, **zero loader errors**;
-- the boot was checked a second time from the packaged files — the release
-  `.g1rcart` in a clean save's `carts/` folder, the pinned Battle Art 1.14.0
-  zip as the installed mod — with every pin's version loading and the game
-  reaching ready;
-- New Bark Town draws as a coloured diorama with real buildings, roofs and
-  round canopied trees; Route 29 has six-pixel ledges with their lip; Elm's
-  Lab and the player's house draw their furniture at table height with the
-  starter balls ON the ball table; the coast shows its rock models;
-- a wild battle is staged on the ground and the diorama stays visible in the
-  panels' margins and through attack animation background clears, mons
-  standing on the terrain as billboards under Gold's HUD;
-- the eleven-mod driver check (Gen1Online+ adds online screens it does not
-  touch) exercises Running Shoes and Free Fly walk
-  phases, the modern start/PC menus, Gen 3 Boxes and box backs, the summary
-  screen, and Modern Johto's optional split hook without mutating shared
-  type data;
-- takeoff through the party submenu works and the camera lifts with it
-  (`Voxel3D.camera` goes from `nil` to a placed camera mid-flight);
-- Wilds' follower engine reports `installed=true, ownerMode=wilds`.
+- All thirteen companions load. Online+ 0.5.2 still reports an unsupported
+  Gen 2 map_scripts registration; online/casino features are not claimed tested.
+- Battle Art's 16-map scenery check passes, including its 19 captured views:
+  distinct tree families, shallow ledges, natural rocks, low furniture, Elm's
+  horizontal healing bed/open bin, and four-pixel starter balls.
+- Native imported water frames reach the actual drawn water geometry; imported
+  flower/other animation programs are supported without substituting Gen 1 art.
+- Both 1ST and 3RD use camera-relative native Crystal grid steps. Sky Ride
+  0.2.20 preserves the camera owner's input predicate during those steps.
+- Existing staged battle HUD backplates remain included. Optional depth-based
+  focus is available through DEPTH OF FIELD; OFF remains its default.
 
 ## Known gaps
 
-Inherited from Battle Art's Gen 2 port, and documented there:
-
-- the **1ST** and **3RD** first-person rungs are Gen 1 only — they take the
-  walk as well as the eye, and `handleInput` is not one of the three members
-  Gold's compatibility facade dispatches back through. The ladder ends at
-  75° on Crystal, by Battle Art's own deliberate gate;
-- animated tiles: the water cycle now runs on Crystal (Battle Art 1.14.2's
-  tile-animation clock and water slot rewrites, experimental in voxel
-  mode) — flowers stay coloured but still until their ROM frames are
-  imported.
+- A user reported a ground/water Pokemon darting around New Bark on cart 1.5.0.
+  Two instrumented current-build boots did not reproduce the extreme speed or
+  multi-cell jumps. The report remains open; Wilds movement is unchanged.
+- Wilds still logs occasional sprite presentation fallbacks. Neither this release
+  nor the map audit claims that every prop across all 35 tilesets has bespoke art.
+- These checks are desktop tests, not Android hardware validation.
 
 Beta notes for this release's additions:
 
@@ -253,7 +239,7 @@ Beta notes for this release's additions:
   the mount system itself remains what upstream ships: an author-declared
   Gen 2 beta. Ground Ride and the FLY progression are the exercised paths.
 
-## Licensing## Licensing
+## Licensing
 
 Wilds of Kanto, NPC Bubbles, Crystal Animated Sprites and Modern UI declare
 no licence upstream, so no redistribution terms are granted anywhere in that
@@ -262,5 +248,5 @@ Kanto Gear, Wild Skies, Gen 3 Boxes, Modern Johto and Running Shoes are
 MIT. Free Fly left the cart in 1.5.0 and is no longer pinned.
 
 No mod here distributes ROMs, extracted game data, or Pokémon-copyrighted
-art, audio or text. Everything shown at runtime comes from your own
-cartridge dump, imported by the engine on your machine.
+art, audio or text. Game data comes from your own cartridge dump. Battle Art also supplies original
+procedural models and generated foliage artwork; CG3 remains the cart label.

@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -33,15 +33,15 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.14.2",
-      "sha256": "9e452be472c10b293229577c8d74bd80ac3d31b3c75089bf372f8864381f3ea0"
+      "version": "1.15.0",
+      "sha256": "bd34b99f643d803fe31b6d8052933b15cd17445b9edb72bfc49e2a6320349945"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.2.19",
-      "sha256": "e6214dc7c0495e7f1b2a2e80bbd24abe27c0201a4acf49b5f2658a05d1258831"
+      "version": "0.2.20",
+      "sha256": "e75d1d16c49f11198ae0b208180926281677097b70e199ec7c0b26519466f94e"
     },
     {
       "id": "gen2_modern_ui",
@@ -117,5 +117,5 @@
   ],
   "label": "art/CG3.png",
   "finish": "holo",
-  "summary": "Pokémon Crystal in 3D: Battle Art scenery, free flight, modern menus, storage, running, companions, online trading."
+  "summary": "Pok\u00e9mon Crystal in 3D: Battle Art scenery, free flight, modern menus, storage, running, companions, online trading."
 }
