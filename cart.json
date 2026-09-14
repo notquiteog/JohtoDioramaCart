@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -27,21 +27,24 @@
       "source": "github",
       "repo": "YoDrehDenSwagAuf/overworld-spawn-mod",
       "version": "2.1.9",
-      "sha256": "0ac172cd0f463f78f9544d8a02cc31596655699e879d9a02895ae5aef22923dd"
+      "sha256": "0ac172cd0f463f78f9544d8a02cc31596655699e879d9a02895ae5aef22923dd",
+      "options": {
+        "catch_hud_size": 0
+      }
     },
     {
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.16.0",
-      "sha256": "28603f47b85b13333845847080b67b45f9b7253693d1f39fb45b77b25efec2ff"
+      "version": "1.17.1",
+      "sha256": "ffbbbd97a587f4e8e753f24e044a93b3dc14556b05474c813557b2cac64cb200"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.2.21",
-      "sha256": "fe3f05d05e9abe4b02d1683f475c7d9d8adafe195c8492eb04df6263f5fddb27"
+      "version": "0.2.22",
+      "sha256": "4276acb4f01f14bd8110d4da5da32f93f016a439546ef80f6c4719b99e74e350"
     },
     {
       "id": "gen2_modern_ui",
@@ -89,8 +92,8 @@
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.9.1",
-      "sha256": "36f4d04dd17d98a88a62c1a966973a5f5639afb07573513fd0a6937f5b825360"
+      "version": "0.9.2",
+      "sha256": "3661ec1a832412bcfb4fda43b9340dc095ac02e75c30865eb7eac80c4f598029"
     },
     {
       "id": "crystal_animated_sprites_with_shiny_visuals",

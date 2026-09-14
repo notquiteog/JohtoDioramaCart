@@ -26,13 +26,13 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 | Gen1Online+ | 0.5.2 | online multiplayer: GTS trading, PVP battles and the Casino Lounge, server always asked for, sync scoped to the sealed cart |
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
-| Battle Art Voxel Fork | 1.16.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
-| Dramatic Sky Ride | 0.2.21 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
+| Battle Art Voxel Fork | 1.17.1 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and default HD-2D scenery |
+| Dramatic Sky Ride | 0.2.22 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | Gen 2 Modern UI | 1.0.15 | modern menus for the start and PC screens |
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | Modern Johto | 0.2.0 | optional texture modernisation, off by default |
 | NPC Bubbles | 2.3.13 | speech bubbles over NPCs |
-| Double Battles | 0.9.1 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
+| Double Battles | 0.9.2 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
 | Running Shoes | 1.10.0 | hold to run |
 | Wild Skies | 1.12.0 | flocks of local flying Pokémon, perching on rooftops |
 | Crystal Animated Sprites with Shiny Visuals | 2.0.4 | animated battle sprites and shiny visuals |
@@ -139,3 +139,25 @@ Validated across sixteen Crystal maps, three oblique roof views and a native
 1440p double battle. This remains an incremental pass toward Gamma Emerald;
 complete scenery/prop parity and hardware verification remain open. Crystal,
 sealed+, CG3 artwork and the other twelve mod pins are unchanged.
+
+
+## 1.9.0 — HD-2D default, low shrubs and natural terrain
+
+**HD-2D** is the fork and cart default; the voxel/source style selector has been removed. Battle Art 1.17.1 adds curved illustrated
+maple/pine/spreading canopies, matching forest fill, low bushes, retained Cut
+saplings, small flowers, shallow Park beds, expanded interior furniture/floors,
+irregular short reef clusters, wet-sand shore slopes and rounded ledge mounds.
+The mound crest is only 2.5 pixels high; the outward face keeps its dirt texture. Optional HD-2D lighting and
+Depth of Field affect the world while keeping text sharp.
+
+The overworld Poké Ball HUD is hidden. Double Battles 0.9.2 keeps status panels
+out of attack-effect zooms; Battle Art retains the stage through KO/escape
+messages. Sky Ride 0.2.22 restores the requested scientist at **New Bark Town
+(9,10)**. Talking to him grants missing level-50 Ho-Oh/Fly, Suicune/Surf,
+Raikou and Gyarados/Surf. He grants nothing on boot or map entry.
+
+Crystal, sealed+, CG3 cover and all thirteen companions are retained.
+This is an incremental scenery release; exact Gamma Emerald parity and the
+reported fast bouncing Charmander remain open. Native tests use software GPU,
+including 1440p battles, style/shader switching and a 388-map rendering sweep;
+the sweep does not certify that every prop has a finished custom model.
