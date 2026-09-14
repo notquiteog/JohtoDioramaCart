@@ -26,7 +26,7 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 | Gen1Online+ | 0.5.2 | online multiplayer: GTS trading, PVP battles and the Casino Lounge, server always asked for, sync scoped to the sealed cart |
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
-| Battle Art Voxel Fork | 1.15.3 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
+| Battle Art Voxel Fork | 1.16.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
 | Dramatic Sky Ride | 0.2.21 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | Gen 2 Modern UI | 1.0.15 | modern menus for the start and PC screens |
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -126,3 +126,16 @@ font/DPI/bounds, 16-map scenery review, and real battle-screen damage and
 survivor handling. Native special prompts remain in use. Explicit opponent
 aim and player-side pair command collection remain future work. Full Gamma
 Emerald art parity and the reported fast overworld Pokemon remain ongoing.
+
+## 1.8.0 — closed roof sides and refined HD scenery
+
+Battle Art **1.16.0** closes open roof sides and steps between adjacent roof
+sections. Johto house walls now use clean plaster, warm timber and blue-gray
+windows, with proper side/rear wall materials. Original larger leaf sprays,
+varied crowns, sparse meadow blades and softer Crystal HD shadows refine the
+outdoor scenery. Sharp 1440p doubles UI and native battle fixes carry forward.
+
+Validated across sixteen Crystal maps, three oblique roof views and a native
+1440p double battle. This remains an incremental pass toward Gamma Emerald;
+complete scenery/prop parity and hardware verification remain open. Crystal,
+sealed+, CG3 artwork and the other twelve mod pins are unchanged.

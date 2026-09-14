@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "Pok\u00e9mon Crystal in 3D: Battle Art scenery, free flight, modern menus, storage, running, companions, online trading.",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -47,8 +47,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.15.3",
-      "sha256": "7f52b7527350dfaede84a14b7475f06edd89cf94713a8ea31fac6ce5ddcfa41f"
+      "version": "1.16.0",
+      "sha256": "28603f47b85b13333845847080b67b45f9b7253693d1f39fb45b77b25efec2ff"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
