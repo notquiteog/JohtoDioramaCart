@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -33,15 +33,15 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.15.0",
-      "sha256": "bd34b99f643d803fe31b6d8052933b15cd17445b9edb72bfc49e2a6320349945"
+      "version": "1.15.3",
+      "sha256": "7f52b7527350dfaede84a14b7475f06edd89cf94713a8ea31fac6ce5ddcfa41f"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.2.20",
-      "sha256": "e75d1d16c49f11198ae0b208180926281677097b70e199ec7c0b26519466f94e"
+      "version": "0.2.21",
+      "sha256": "fe3f05d05e9abe4b02d1683f475c7d9d8adafe195c8492eb04df6263f5fddb27"
     },
     {
       "id": "gen2_modern_ui",
@@ -89,8 +89,8 @@
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.8.0",
-      "sha256": "733b8fdd0e2502f1f650cf01c5395a595fc585d965dc2694d63df0a48cc985d9"
+      "version": "0.9.1",
+      "sha256": "36f4d04dd17d98a88a62c1a966973a5f5639afb07573513fd0a6937f5b825360"
     },
     {
       "id": "crystal_animated_sprites_with_shiny_visuals",

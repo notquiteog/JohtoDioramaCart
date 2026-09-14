@@ -26,13 +26,13 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 | Gen1Online+ | 0.5.2 | online multiplayer: GTS trading, PVP battles and the Casino Lounge, server always asked for, sync scoped to the sealed cart |
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
-| Battle Art Voxel Fork | 1.15.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
-| Dramatic Sky Ride | 0.2.20 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
+| Battle Art Voxel Fork | 1.15.3 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and an HD-2D row |
+| Dramatic Sky Ride | 0.2.21 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | Gen 2 Modern UI | 1.0.15 | modern menus for the start and PC screens |
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | Modern Johto | 0.2.0 | optional texture modernisation, off by default |
 | NPC Bubbles | 2.3.13 | speech bubbles over NPCs |
-| Double Battles | 0.8.0 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
+| Double Battles | 0.9.1 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
 | Running Shoes | 1.10.0 | hold to run |
 | Wild Skies | 1.12.0 | flocks of local flying Pokémon, perching on rooftops |
 | Crystal Animated Sprites with Shiny Visuals | 2.0.4 | animated battle sprites and shiny visuals |
@@ -104,3 +104,25 @@ hardware has not been validated in this batch.
 The cart contains pins and CG3 label art, not a ROM. Game data is imported
 from the user's cartridge; Battle Art also supplies original procedural models
 and generated foliage artwork.
+
+## 1.7.0 — modern doubles, 1440p framing and gameplay fixes
+
+Battle Art **1.15.3**, Double Battles **0.9.1**, Sky Ride **0.2.21**.
+
+- Crystal attacks selected through the normal battle screen now deal damage.
+- Both foes render independently; the survivor takes over correctly at 1v1.
+- Compact modern status cards, command highlights and move type/PP rows use
+  sharp fonts and a capped desktop scale, with HUD cards at the window edges.
+- Native back sprites face the opponents; the wider staged camera shows more
+  scenery at 16:9. Verified in a real 2560x1440 two-Sentret battle.
+- The temporary scientist granting level-50 test mounts is no longer loaded.
+  Existing party and PC Pokemon are not deleted.
+- Refined tree crowns/branches, foliage filtering, turf fringes, roof courses
+  and lab wood carry over from the scenery pass.
+
+Crystal, sealed+, the CG3 label and the other ten mod pins are preserved.
+Checks: 39 native doubles assertions, staged-pair placement/facing, HUD
+font/DPI/bounds, 16-map scenery review, and real battle-screen damage and
+survivor handling. Native special prompts remain in use. Explicit opponent
+aim and player-side pair command collection remain future work. Full Gamma
+Emerald art parity and the reported fast overworld Pokemon remain ongoing.

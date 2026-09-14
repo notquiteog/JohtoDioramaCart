@@ -24,13 +24,13 @@ separately and fetched at its exact build.
 | [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.2 | online multiplayer for Crystal: GTS trading, PVP battles and the Casino Lounge |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.15.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery row |
-| [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.20 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.15.3 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery row |
+| [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.21 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | [Modern Johto](https://github.com/MadeinTaly/gen1recomp-modern-johto) | 0.2.0 | optional texture modernisation, off by default |
 | [NPC Bubbles](https://github.com/notquiteog/gen1recomp-npc-bubbles) | 2.3.13 | speech bubbles over NPCs |
-| [Double Battles](https://github.com/notquiteog/double-battles-gen2) | 0.8.0 | wild doubles and trainer 2v2 on Crystal, run by the engine's own battle sim, staged on the diorama |
+| [Double Battles](https://github.com/notquiteog/double-battles-gen2) | 0.9.1 | wild doubles and trainer 2v2 on Crystal, run by the engine's own battle sim, staged on the diorama |
 | [Running Shoes](https://github.com/MadeinTaly/gen1recomp-running-shoes) | 1.10.0 | hold to run |
 | [Wild Skies](https://github.com/shanehudson-gen1recomp-mods/wild_skies) | 1.12.0 | flocks of local flying Pokémon crossing the sky, perching on rooftops |
 | [Crystal Animated Sprites with Shiny Visuals](https://github.com/notquiteog/crystal_animated_sprites_with_shiny_visuals) | 2.0.4 | animated battle sprites and shiny visuals |
@@ -250,3 +250,25 @@ MIT. Free Fly left the cart in 1.5.0 and is no longer pinned.
 No mod here distributes ROMs, extracted game data, or Pokémon-copyrighted
 art, audio or text. Game data comes from your own cartridge dump. Battle Art also supplies original
 procedural models and generated foliage artwork; CG3 remains the cart label.
+
+## 1.7.0 — modern doubles, 1440p framing and gameplay fixes
+
+Battle Art **1.15.3**, Double Battles **0.9.1**, Sky Ride **0.2.21**.
+
+- Crystal attacks selected through the normal battle screen now deal damage.
+- Both foes render independently; the survivor takes over correctly at 1v1.
+- Compact modern status cards, command highlights and move type/PP rows use
+  sharp fonts and a capped desktop scale, with HUD cards at the window edges.
+- Native back sprites face the opponents; the wider staged camera shows more
+  scenery at 16:9. Verified in a real 2560x1440 two-Sentret battle.
+- The temporary scientist granting level-50 test mounts is no longer loaded.
+  Existing party and PC Pokemon are not deleted.
+- Refined tree crowns/branches, foliage filtering, turf fringes, roof courses
+  and lab wood carry over from the scenery pass.
+
+Crystal, sealed+, the CG3 label and the other ten mod pins are preserved.
+Checks: 39 native doubles assertions, staged-pair placement/facing, HUD
+font/DPI/bounds, 16-map scenery review, and real battle-screen damage and
+survivor handling. Native special prompts remain in use. Explicit opponent
+aim and player-side pair command collection remain future work. Full Gamma
+Emerald art parity and the reported fast overworld Pokemon remain ongoing.
