@@ -164,7 +164,7 @@ the sweep does not certify that every prop has a finished custom model.
 
 ## 1.11.0
 
-Fixes the rapidly respawning town “glitchmon” in Online+0.5.4. Invalid encounter
+Fixes the rapidly respawning town “glitchmon” in Online+0.5.5. Invalid encounter
 rows fell back to Charmander artwork while an offline spawner rerolled its
 population every frame. The cart now leaves offline wilds and the local follower
 to Wilds; Online+ validates encounter data and retains stable standalone rosters.

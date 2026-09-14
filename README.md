@@ -20,7 +20,7 @@ separately and fetched at its exact build.
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.4 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
+| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.5 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
 | [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.19.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
@@ -320,7 +320,7 @@ HD-2D update; exact Gamma Emerald parity and hardware testing remain open.
 
 ## 1.11.0
 
-Fixes the rapidly respawning town “glitchmon” in Online+0.5.4. Invalid encounter
+Fixes the rapidly respawning town “glitchmon” in Online+0.5.5. Invalid encounter
 rows fell back to Charmander artwork while an offline spawner rerolled its
 population every frame. The cart now leaves offline wilds and the local follower
 to Wilds; Online+ validates encounter data and retains stable standalone rosters.
