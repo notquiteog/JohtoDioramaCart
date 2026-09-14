@@ -20,10 +20,10 @@ separately and fetched at its exact build.
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.2 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
+| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.3 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.17.2 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.18.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
 | [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.22 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -31,7 +31,7 @@ separately and fetched at its exact build.
 | [NPC Bubbles](https://github.com/notquiteog/gen1recomp-npc-bubbles) | 2.3.13 | speech bubbles over NPCs |
 | [Double Battles](https://github.com/notquiteog/double-battles-gen2) | 0.9.2 | wild doubles and trainer 2v2 on Crystal, run by the engine's own battle sim, staged on the diorama |
 | [Running Shoes](https://github.com/MadeinTaly/gen1recomp-running-shoes) | 1.10.0 | hold to run |
-| [Wild Skies](https://github.com/shanehudson-gen1recomp-mods/wild_skies) | 1.12.0 | flocks of local flying Pokémon crossing the sky, perching on rooftops |
+| [Wild Skies](https://github.com/notquiteog/wild_skies) | 1.12.2 | flocks of local flying Pokémon crossing the sky, perching on rooftops |
 | [Crystal Animated Sprites with Shiny Visuals](https://github.com/notquiteog/crystal_animated_sprites_with_shiny_visuals) | 2.0.4 | animated battle sprites and shiny visuals |
 
 The order above is the load order, and it is the order this cart was verified
@@ -43,7 +43,7 @@ which art a battle draws.
 off. Modern Johto ships with its balance switches at the author's off
 defaults, and Double Battles' WILD DOUBLES ships at SOMETIMES.
 
-## Why six of the thirteen are forks
+## Why these mods are forks
 
 These forks carry Crystal compatibility and presentation work; the original
 mods and their authors are credited upstream.
@@ -306,3 +306,13 @@ This is an incremental scenery release; exact Gamma Emerald parity and the
 reported fast bouncing Charmander remain open. Native tests use software GPU,
 including 1440p battles, style/shader switching and a 388-map rendering sweep;
 the sweep does not certify that every prop has a finished custom model.
+
+## 1.10.0
+
+Restores the **3** camera key on Crystal, including first person and third
+person, while respecting menus and cutscenes. Battle Art1.18.0 also repairs
+native scenery caching, adds open Park benches/bins, corrects two unused prop
+recipes, and improves crown tops and Dark Cave surfaces. Wild Skies1.12.2 fixes
+connected-map collision calls; Online+0.5.3 skips unsupported map-script hooks.
+The reported bouncing Pokémon remains unresolved. This is an incremental
+HD-2D update; exact Gamma Emerald parity and hardware testing remain open.

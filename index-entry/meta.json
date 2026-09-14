@@ -2,8 +2,8 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "summary": "Pok\u00e9mon Crystal with layered HD-2D scenery, modern battles, soft terrain, mounts, followers and modern menus.",
-  "version": "1.9.0",
+  "summary": "Pokémon Crystal with layered HD-2D scenery, modern battles, soft terrain, mounts, followers and modern menus.",
+  "version": "1.10.0",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -12,7 +12,6 @@
     "crystal",
     "gen2",
     "johto",
-    "voxel",
     "3d",
     "flying",
     "followers",
@@ -27,8 +26,8 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.5.2",
-      "sha256": "bc8da6b6c8cf37195e50927672e146535baf26ee2d1eeccf9c3effbfd4861193"
+      "version": "0.5.3",
+      "sha256": "6fd99e40eb54a7fe9b9b27cfb8721b9ccb5559d04cd0ba930af78ff0d1f46ef7"
     },
     {
       "id": "kanto_gear",
@@ -51,8 +50,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.17.2",
-      "sha256": "88afb747e2e30435595af70fdf6a52c7c4c7162635b648880d000e3871483417"
+      "version": "1.18.0",
+      "sha256": "4641547e91f285fcc6d702c196294cb122540f6f97e20e458218d91ead5c5f98"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
@@ -99,9 +98,9 @@
     {
       "id": "wild_skies",
       "source": "github",
-      "repo": "shanehudson-gen1recomp-mods/wild_skies",
-      "version": "1.12.0",
-      "sha256": "9932561e0d2cc119fc94c72df40f93bb15c905868a4d0cd71b42f08f8f9f6d92"
+      "repo": "notquiteog/wild_skies",
+      "version": "1.12.2",
+      "sha256": "a6bea50de0c72f1c06a9ed3d6e7a87ca8d64ee2fad5d05b66e38576e76d3b305"
     },
     {
       "id": "double_battles",
@@ -123,7 +122,6 @@
     "kanto_gear",
     "overworld_wild_spawns",
     "BATTLE_ART_VOXEL_FORK",
-    "DRAMATIC_SKY_RIDE",
     "gen2_modern_ui",
     "gen3_box",
     "modern_johto",
@@ -131,6 +129,7 @@
     "running_shoes",
     "wild_skies",
     "double_battles",
+    "DRAMATIC_SKY_RIDE",
     "crystal_animated_sprites_with_shiny_visuals"
   ]
 }
