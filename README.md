@@ -239,10 +239,10 @@ Inherited from Battle Art's Gen 2 port, and documented there:
   walk as well as the eye, and `handleInput` is not one of the three members
   Gold's compatibility facade dispatches back through. The ladder ends at
   75° on Crystal, by Battle Art's own deliberate gate;
-- Gold's battle HUD is authored for a white field, so a name or HP box can
-  land on busy diorama geometry — Battle Art's own changelog names
-  backplates under the HUD as the next improvement;
-- animated tiles (water, flowers) are coloured but still.
+- animated tiles: the water cycle now runs on Crystal (Battle Art 1.14.2's
+  tile-animation clock and water slot rewrites, experimental in voxel
+  mode) — flowers stay coloured but still until their ROM frames are
+  imported.
 
 Beta notes for this release's additions:
 
