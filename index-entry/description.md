@@ -26,7 +26,7 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 | Gen1Online+ | 0.5.2 | online multiplayer: GTS trading, PVP battles and the Casino Lounge, server always asked for, sync scoped to the sealed cart |
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
-| Battle Art Voxel Fork | 1.17.1 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and default HD-2D scenery |
+| Battle Art Voxel Fork | 1.17.2 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and default HD-2D scenery |
 | Dramatic Sky Ride | 0.2.22 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | Gen 2 Modern UI | 1.0.15 | modern menus for the start and PC screens |
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -143,7 +143,7 @@ sealed+, CG3 artwork and the other twelve mod pins are unchanged.
 
 ## 1.9.0 — HD-2D default, low shrubs and natural terrain
 
-**HD-2D** is the fork and cart default; the voxel/source style selector has been removed. Battle Art 1.17.1 adds curved illustrated
+**HD-2D** is the fork and cart default; the voxel/source style selector has been removed. Battle Art 1.17.2 adds curved illustrated
 maple/pine/spreading canopies, matching forest fill, low bushes, retained Cut
 saplings, small flowers, shallow Park beds, expanded interior furniture/floors,
 irregular short reef clusters, wet-sand shore slopes and rounded ledge mounds.

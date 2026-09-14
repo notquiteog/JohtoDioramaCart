@@ -23,7 +23,7 @@ separately and fetched at its exact build.
 | [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.2 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.17.1 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.17.2 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
 | [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.22 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -288,7 +288,7 @@ sealed+, CG3 artwork and the other twelve mod pins are unchanged.
 
 ## 1.9.0 — HD-2D default, low shrubs and natural terrain
 
-**HD-2D** is the fork and cart default; the voxel/source style selector has been removed. Battle Art 1.17.1 adds curved illustrated
+**HD-2D** is the fork and cart default; the voxel/source style selector has been removed. Battle Art 1.17.2 adds curved illustrated
 maple/pine/spreading canopies, matching forest fill, low bushes, retained Cut
 saplings, small flowers, shallow Park beds, expanded interior furniture/floors,
 irregular short reef clusters, wet-sand shore slopes and rounded ledge mounds.
