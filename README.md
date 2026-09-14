@@ -237,12 +237,23 @@ Inherited from Battle Art's Gen 2 port, and documented there:
 
 - the **1ST** and **3RD** first-person rungs are Gen 1 only — they take the
   walk as well as the eye, and `handleInput` is not one of the three members
-  Gold's compatibility facade dispatches back through;
+  Gold's compatibility facade dispatches back through. The ladder ends at
+  75° on Crystal, by Battle Art's own deliberate gate;
 - Gold's battle HUD is authored for a white field, so a name or HP box can
-  land on busy geometry;
-- animated tiles (water, flowers) are coloured but still;
+  land on busy diorama geometry — Battle Art's own changelog names
+  backplates under the HUD as the next improvement;
+- animated tiles (water, flowers) are coloured but still.
 
-## Licensing
+Beta notes for this release's additions:
+
+- **Double Battles on Crystal** is you against two, for now: the player-side
+  partner, the aim menu and the shared 2v2 HUD are the fork's next chunk.
+  The sim, both foes, their plates and the collapse to 1v1 are all live.
+- **Dramatic Sky Ride on Crystal** carries the fork's rider-crash fix, but
+  the mount system itself remains what upstream ships: an author-declared
+  Gen 2 beta. Ground Ride and the FLY progression are the exercised paths.
+
+## Licensing## Licensing
 
 Wilds of Kanto, NPC Bubbles, Crystal Animated Sprites and Modern UI declare
 no licence upstream, so no redistribution terms are granted anywhere in that

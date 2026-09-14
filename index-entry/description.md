@@ -99,7 +99,9 @@ release files.
 
 Known gaps: the 1ST and 3RD first-person rungs are Gen 1 only; Gold's battle
 HUD is authored for a white field, so a name or HP box can land on busy
-geometry; animated tiles are coloured but still.
+geometry; animated tiles are coloured but still. Doubles on Crystal are
+you-against-two for now (the player-side partner is the fork's next chunk),
+and Dramatic Sky Ride's Crystal mounts ride upstream's own beta.
 
 No mod here distributes ROMs, extracted game data, or Pokémon-copyrighted
 art, audio or text. Everything shown at runtime comes from your own cartridge
