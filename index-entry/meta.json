@@ -2,8 +2,8 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "summary": "Pok\u00e9mon Crystal with layered HD-2D scenery, modern battles, soft terrain, mounts, followers and modern menus.",
-  "version": "1.11.0",
+  "summary": "Pokémon Crystal with layered HD-2D scenery, modern battles, soft terrain, mounts, followers and modern menus.",
+  "version": "1.12.0",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -50,8 +50,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.19.0",
-      "sha256": "342e552d1c1287ba4e8d0503a8d1c4a7e406a067bdefd15008d3f2fd096c7b35"
+      "version": "1.19.1",
+      "sha256": "5705c92215d0dc3b0a6167626f5b9d5cafe80027d273ea7b52c06e237204baec"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
@@ -106,8 +106,8 @@
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.9.2",
-      "sha256": "3661ec1a832412bcfb4fda43b9340dc095ac02e75c30865eb7eac80c4f598029"
+      "version": "0.9.3",
+      "sha256": "f2f9f12acf0f79b46f860761811c34431e79010e99a6ab35ebef3cbde69e81fc"
     },
     {
       "id": "crystal_animated_sprites_with_shiny_visuals",

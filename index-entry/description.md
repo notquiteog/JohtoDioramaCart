@@ -32,7 +32,7 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | Modern Johto | 0.2.0 | optional texture modernisation, off by default |
 | NPC Bubbles | 2.3.13 | speech bubbles over NPCs |
-| Double Battles | 0.9.2 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
+| Double Battles | 0.9.3 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
 | Running Shoes | 1.10.0 | hold to run |
 | Wild Skies | 1.12.0 | flocks of local flying Pokémon, perching on rooftops |
 | Crystal Animated Sprites with Shiny Visuals | 2.0.4 | animated battle sprites and shiny visuals |
@@ -178,3 +178,22 @@ the normal mod update hooks, which exposed the glitchmon missed by older probes.
 Crystal, sealed+, all thirteen companions, HD-2D defaults, hidden overworld
 Poké Ball HUD and CG3 cover are retained. Exact Gamma Emerald parity, exhaustive
 map polish and hardware performance remain ongoing.
+
+## 1.12.0
+
+Choose which opponent to attack in Crystal doubles; confirm with A or return
+with B without spending PP. Overworld spawn encounters retain their supplied
+Pokémon, even when wild doubles is set to ALWAYS. Only ordinary random step
+encounters can automatically add a second wild foe.
+
+First-person and rotating third-person views can turn during dialogue and
+world cutscenes while movement remains locked. Mouse, controller-stick and
+touch look use the native input paths.
+
+Includes Battle Art1.19.1 and Double Battles0.9.3. Target input, encounter
+ownership and camera dialogue/script behavior pass in the Linux AppImage.
+A local host/guest simulation verifies three mirrored Online+ singles rounds
+with automatic doubles kept out of multiplayer construction. Multiplayer
+doubles and player-side pair command collection are unfinished; no Internet
+multiplayer playtest is claimed. Crystal, sealed+, CG3, HD-2D defaults and
+all thirteen companions remain.

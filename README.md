@@ -23,13 +23,13 @@ separately and fetched at its exact build.
 | [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.5 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.19.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.19.1 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
 | [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.22 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | [Modern Johto](https://github.com/MadeinTaly/gen1recomp-modern-johto) | 0.2.0 | optional texture modernisation, off by default |
 | [NPC Bubbles](https://github.com/notquiteog/gen1recomp-npc-bubbles) | 2.3.13 | speech bubbles over NPCs |
-| [Double Battles](https://github.com/notquiteog/double-battles-gen2) | 0.9.2 | wild doubles and trainer 2v2 on Crystal, run by the engine's own battle sim, staged on the diorama |
+| [Double Battles](https://github.com/notquiteog/double-battles-gen2) | 0.9.3 | Crystal wild/trainer doubles with opponent selection; paired ally commands and multiplayer doubles remain unfinished |
 | [Running Shoes](https://github.com/MadeinTaly/gen1recomp-running-shoes) | 1.10.0 | hold to run |
 | [Wild Skies](https://github.com/notquiteog/wild_skies) | 1.12.2 | flocks of local flying Pokémon crossing the sky, perching on rooftops |
 | [Crystal Animated Sprites with Shiny Visuals](https://github.com/notquiteog/crystal_animated_sprites_with_shiny_visuals) | 2.0.4 | animated battle sprites and shiny visuals |
@@ -222,6 +222,10 @@ Desktop Crystal testing on gen1recomp 0.2.59 with software OpenGL:
 
 ## Known gaps
 
+- Crystal doubles still commands one player-side active Pokémon. Selecting
+  both allies' commands, full doubles mechanical parity and multiplayer doubles
+  remain unfinished. Online+/native link stay singles; only a local mirrored
+  session simulation has been checked, not Internet multiplayer.
 - **Resolved in 1.11.0:** the darting town Pokémon came from Online+'s second
   offline spawner, malformed rare slots and per-frame roster rerolls. Native
   tests with the real update hooks now pass in New Bark, Cherrygrove and Violet;
@@ -334,3 +338,22 @@ the normal mod update hooks, which exposed the glitchmon missed by older probes.
 Crystal, sealed+, all thirteen companions, HD-2D defaults, hidden overworld
 Poké Ball HUD and CG3 cover are retained. Exact Gamma Emerald parity, exhaustive
 map polish and hardware performance remain ongoing.
+
+## 1.12.0
+
+Choose which opponent to attack in Crystal doubles; confirm with A or return
+with B without spending PP. Overworld spawn encounters retain their supplied
+Pokémon, even when wild doubles is set to ALWAYS. Only ordinary random step
+encounters can automatically add a second wild foe.
+
+First-person and rotating third-person views can turn during dialogue and
+world cutscenes while movement remains locked. Mouse, controller-stick and
+touch look use the native input paths.
+
+Includes Battle Art1.19.1 and Double Battles0.9.3. Target input, encounter
+ownership and camera dialogue/script behavior pass in the Linux AppImage.
+A local host/guest simulation verifies three mirrored Online+ singles rounds
+with automatic doubles kept out of multiplayer construction. Multiplayer
+doubles and player-side pair command collection are unfinished; no Internet
+multiplayer playtest is claimed. Crystal, sealed+, CG3, HD-2D defaults and
+all thirteen companions remain.
