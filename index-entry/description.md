@@ -27,12 +27,12 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 | Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
 | Battle Art Voxel Fork | 1.17.2 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and default HD-2D scenery |
-| Dramatic Sky Ride | 0.2.22 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
+| Dramatic Sky Ride | 0.2.23 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | Gen 2 Modern UI | 1.0.15 | modern menus for the start and PC screens |
 | Gen 3 Boxes | 1.24.0 | Gen 3-style PC boxes and box back sprites |
 | Modern Johto | 0.2.0 | optional texture modernisation, off by default |
 | NPC Bubbles | 2.3.13 | speech bubbles over NPCs |
-| Double Battles | 0.9.3 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
+| Double Battles | 0.9.4 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
 | Running Shoes | 1.10.0 | hold to run |
 | Wild Skies | 1.12.0 | flocks of local flying Pokémon, perching on rooftops |
 | Crystal Animated Sprites with Shiny Visuals | 2.0.4 | animated battle sprites and shiny visuals |
