@@ -20,10 +20,10 @@ separately and fetched at its exact build.
 
 | mod | build | what it does here |
 | --- | --- | --- |
-| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.3 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
+| [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.4 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.18.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.19.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
 | [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.22 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -222,14 +222,15 @@ Desktop Crystal testing on gen1recomp 0.2.59 with software OpenGL:
 
 ## Known gaps
 
-- A user reported a ground/water Pokemon darting around New Bark on cart 1.5.0.
-  Two instrumented current-build boots did not reproduce the extreme speed or
-  multi-cell jumps. The report remains open; Wilds movement is unchanged.
+- **Resolved in 1.11.0:** the darting town Pokémon came from Online+'s second
+  offline spawner, malformed rare slots and per-frame roster rerolls. Native
+  tests with the real update hooks now pass in New Bark, Cherrygrove and Violet;
+  the normal ambient Pokémon and one party follower remain.
 - Wilds still logs occasional sprite presentation fallbacks. Neither this release
   nor the map audit claims that every prop across all 35 tilesets has bespoke art.
 - These checks are desktop tests, not Android hardware validation.
 
-Beta notes for this release's additions:
+Historical beta notes (superseded by the later release entries below):
 
 - **Double Battles on Crystal** is you against two, for now: the player-side
   partner, the aim menu and the shared 2v2 HUD are the fork's next chunk.
@@ -316,3 +317,20 @@ recipes, and improves crown tops and Dark Cave surfaces. Wild Skies1.12.2 fixes
 connected-map collision calls; Online+0.5.3 skips unsupported map-script hooks.
 The reported bouncing Pokémon remains unresolved. This is an incremental
 HD-2D update; exact Gamma Emerald parity and hardware testing remain open.
+
+## 1.11.0
+
+Fixes the rapidly respawning town “glitchmon” in Online+0.5.4. Invalid encounter
+rows fell back to Charmander artwork while an offline spawner rerolled its
+population every frame. The cart now leaves offline wilds and the local follower
+to Wilds; Online+ validates encounter data and retains stable standalone rosters.
+
+Battle Art1.19.0 lays the Center healing bed flat, repairs sign backing, adds
+capped roof courses and fuller tree sides, and encloses upper interior walls for
+first-person/rotating third-person views. Reviewed 40 views at 2560×1440 across
+five maps and four headings per camera mode. The test launcher now exercises
+the normal mod update hooks, which exposed the glitchmon missed by older probes.
+
+Crystal, sealed+, all thirteen companions, HD-2D defaults, hidden overworld
+Poké Ball HUD and CG3 cover are retained. Exact Gamma Emerald parity, exhaustive
+map polish and hardware performance remain ongoing.

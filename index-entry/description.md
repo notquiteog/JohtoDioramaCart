@@ -161,3 +161,20 @@ This is an incremental scenery release; exact Gamma Emerald parity and the
 reported fast bouncing Charmander remain open. Native tests use software GPU,
 including 1440p battles, style/shader switching and a 388-map rendering sweep;
 the sweep does not certify that every prop has a finished custom model.
+
+## 1.11.0
+
+Fixes the rapidly respawning town “glitchmon” in Online+0.5.4. Invalid encounter
+rows fell back to Charmander artwork while an offline spawner rerolled its
+population every frame. The cart now leaves offline wilds and the local follower
+to Wilds; Online+ validates encounter data and retains stable standalone rosters.
+
+Battle Art1.19.0 lays the Center healing bed flat, repairs sign backing, adds
+capped roof courses and fuller tree sides, and encloses upper interior walls for
+first-person/rotating third-person views. Reviewed 40 views at 2560×1440 across
+five maps and four headings per camera mode. The test launcher now exercises
+the normal mod update hooks, which exposed the glitchmon missed by older probes.
+
+Crystal, sealed+, all thirteen companions, HD-2D defaults, hidden overworld
+Poké Ball HUD and CG3 cover are retained. Exact Gamma Emerald parity, exhaustive
+map polish and hardware performance remain ongoing.
