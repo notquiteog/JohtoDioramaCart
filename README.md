@@ -23,7 +23,7 @@ separately and fetched at its exact build.
 | [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.5 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.20.0 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.20.1 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
 | [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.23 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -32,7 +32,7 @@ separately and fetched at its exact build.
 | [Double Battles](https://github.com/notquiteog/double-battles-gen2) | 0.9.4 | Crystal wild/trainer doubles with opponent selection; paired ally commands and multiplayer doubles remain unfinished |
 | [Running Shoes](https://github.com/MadeinTaly/gen1recomp-running-shoes) | 1.10.0 | hold to run |
 | [Wild Skies](https://github.com/notquiteog/wild_skies) | 1.12.2 | flocks of local flying Pokémon crossing the sky, perching on rooftops |
-| [Crystal Animated Sprites with Shiny Visuals](https://github.com/notquiteog/crystal_animated_sprites_with_shiny_visuals) | 2.0.4 | animated battle sprites and shiny visuals |
+| [Crystal Animated Sprites with Shiny Visuals](https://github.com/notquiteog/crystal_animated_sprites_with_shiny_visuals) | 2.1.0 | animated full-body staged backs and shiny visuals |
 
 The order above is the load order, and it is the order this cart was verified
 in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
@@ -357,3 +357,24 @@ with automatic doubles kept out of multiplayer construction. Multiplayer
 doubles and player-side pair command collection are unfinished; no Internet
 multiplayer playtest is claimed. Crystal, sealed+, CG3, HD-2D defaults and
 all thirteen companions remain.
+
+## 1.13.0 — illustrated trees and full-body battle backs
+
+Trees use one complete illustrated foliage image, with no 3D crown caps or
+stacked tops. Leaves face the camera in first person, rotating third person,
+overhead and battle views. Original trunks stay rooted and their upper wood
+sits behind the foliage. Border-fill trees use the same presentation.
+
+Battle Art 1.20.1 and Crystal Animated Sprites 2.1.0 add this presentation and
+animated full-body backs for all 251 Crystal species, including shiny variants.
+FULL-BODY BATTLE BACKS ships enabled; turning it off restores native staged
+backs. Existing depth-of-field and lighting options remain available.
+
+Verified with the actual Gen1Recomp 0.2.73 Linux AppImage at 2560×1440: multiple
+camera headings, native staged sprites/animations and fallback, healing balls,
+and follower-backed Raikou with a single rider. Crystal, sealed+, CG3 artwork,
+all 13 companions and the hidden overworld Poké Ball HUD are retained.
+
+This update does not finish paired allied commands or multiplayer doubles.
+Exact Gamma Emerald parity, exhaustive map coverage and hardware performance
+remain ongoing.

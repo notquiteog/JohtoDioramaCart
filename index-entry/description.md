@@ -35,7 +35,7 @@ For **Pokémon Crystal**. Thirteen mods, pinned by digest.
 | Double Battles | 0.9.4 | wild doubles and trainer 2v2 on the engine's own battle sim, staged on the diorama |
 | Running Shoes | 1.10.0 | hold to run |
 | Wild Skies | 1.12.0 | flocks of local flying Pokémon, perching on rooftops |
-| Crystal Animated Sprites with Shiny Visuals | 2.0.4 | animated battle sprites and shiny visuals |
+| Crystal Animated Sprites with Shiny Visuals | 2.1.0 | animated full-body staged backs and shiny visuals |
 
 The order above is the load order, and it is the order the cart was verified
 in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
@@ -197,3 +197,24 @@ with automatic doubles kept out of multiplayer construction. Multiplayer
 doubles and player-side pair command collection are unfinished; no Internet
 multiplayer playtest is claimed. Crystal, sealed+, CG3, HD-2D defaults and
 all thirteen companions remain.
+
+## 1.13.0 — illustrated trees and full-body battle backs
+
+Trees use one complete illustrated foliage image, with no 3D crown caps or
+stacked tops. Leaves face the camera in first person, rotating third person,
+overhead and battle views. Original trunks stay rooted and their upper wood
+sits behind the foliage. Border-fill trees use the same presentation.
+
+Battle Art 1.20.1 and Crystal Animated Sprites 2.1.0 add this presentation and
+animated full-body backs for all 251 Crystal species, including shiny variants.
+FULL-BODY BATTLE BACKS ships enabled; turning it off restores native staged
+backs. Existing depth-of-field and lighting options remain available.
+
+Verified with the actual Gen1Recomp 0.2.73 Linux AppImage at 2560×1440: multiple
+camera headings, native staged sprites/animations and fallback, healing balls,
+and follower-backed Raikou with a single rider. Crystal, sealed+, CG3 artwork,
+all 13 companions and the hidden overworld Poké Ball HUD are retained.
+
+This update does not finish paired allied commands or multiplayer doubles.
+Exact Gamma Emerald parity, exhaustive map coverage and hardware performance
+remain ongoing.
