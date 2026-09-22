@@ -23,7 +23,7 @@ separately and fetched at its exact build.
 | [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.5 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
 | [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
-| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.20.2 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
+| [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.20.3 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
 | [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.23 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
 | [Gen 2 Modern UI](https://github.com/notquiteog/gen2recomp) | 1.0.15 | modern menus for the start and PC screens |
 | [Gen 3 Boxes](https://github.com/MadeinTaly/gen1recomp-gen3-boxes) | 1.24.0 | Gen 3-style PC boxes and box back sprites |
@@ -378,3 +378,19 @@ all 13 companions and the hidden overworld Poké Ball HUD are retained.
 This update does not finish paired allied commands or multiplayer doubles.
 Exact Gamma Emerald parity, exhaustive map coverage and hardware performance
 remain ongoing.
+
+## 1.13.1 — ceramic roofs and a clearer coverage report
+
+Battle Art 1.20.3 gives pitched roofs Japanese-inspired ceramic tiles,
+rounded ridges, gently curved slopes and shaded eaves. Smaller annexes share
+the same finish; Kanto pitched roofs receive their own ceramic material.
+Static/free-camera foliage behavior and all thirteen companions are retained.
+
+The full Crystal inventory covers388 maps and35 tilesets, with1,549 furniture
+placements. This does not mean every map is visually finished. Larger building
+proportions, bright wall/paving textures and some special interiors still need
+work. See the [visual coverage report](https://github.com/notquiteog/DramaticShapeVoxelMod/blob/Legendary-Additions/docs/CRYSTAL_VISUAL_COVERAGE.md).
+
+Targets Gen1Recomp0.2.73 on Linux. Crystal, sealed+, the CG3 label and full-body
+battle backs remain enabled as before. Existing multiplayer/doubles limitations
+are unchanged.

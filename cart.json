@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.13.0",
+  "version": "1.13.1",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -36,8 +36,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.20.2",
-      "sha256": "57da080064880b55daca9806f88489d1c6a7a025065562d3a82885d9e284e564"
+      "version": "1.20.3",
+      "sha256": "714f81a4899df2889444b3d6df518a38632c7ae629dc6c83e0ae2eafda8247d0"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
