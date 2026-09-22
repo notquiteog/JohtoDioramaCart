@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -12,15 +12,15 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.6.0",
-      "sha256": "d28e0a558c53d0f6d303a26e168d8ff8724489e7557e22e84a24fb316365b92b"
+      "version": "0.7.0",
+      "sha256": "bbef25d906988ec1ca085e69a47f2212272a671e2e902967c22f67100261e48c"
     },
     {
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "notquiteog/overworld-spawn-mod",
-      "version": "2.3.0",
-      "sha256": "dac5a85189aab6ede4acfff9207c2b5780da5386cdae08d3f895a665958be61f",
+      "version": "2.3.1",
+      "sha256": "d67aee0659b8f68f7adb91f9c8701a05b08fd5891c7efb2ea826a4e10391aa3a",
       "options": {
         "catch_hud_size": 0
       }
@@ -36,15 +36,15 @@
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.2.24",
-      "sha256": "d3bedf92c8fbb849bc42586be39eebad1e171a0a00ed49df64e113a2542b6781"
+      "version": "0.3.0",
+      "sha256": "df26b845c92d217e3c59d3dfd236adb4539c10e9dbfe197722ecf96bd4731a8b"
     },
     {
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.10.0",
-      "sha256": "7b148922922d4ccc49074dec70c0aa1fa1c0694920f6883fa0ad50ec6f89e21e"
+      "version": "0.11.0",
+      "sha256": "bbed6cc202d3792dcbf5a35eb5dfc95a6e59b4446d61b7ee5268b7f4e68dc771"
     },
     {
       "id": "running_shoes",
@@ -52,6 +52,16 @@
       "repo": "MadeinTaly/gen1recomp-running-shoes",
       "version": "1.10.0",
       "sha256": "d4a52154f9d6b9c81c2d7421b694beda79bd66ef45471d2b7064739a9f6ed37b"
+    },
+    {
+      "id": "crystal_animated_sprites_with_shiny_visuals",
+      "source": "github",
+      "repo": "notquiteog/crystal_animated_sprites_with_shiny_visuals",
+      "version": "2.1.0",
+      "sha256": "9432787d25476ccf5ce63309efefad794ba6fae877f710013e6bf73ad2aa192f",
+      "options": {
+        "full_body_backs": true
+      }
     }
   ],
   "load_order": [
@@ -60,10 +70,11 @@
     "BATTLE_ART_VOXEL_FORK",
     "DRAMATIC_SKY_RIDE",
     "double_battles",
-    "running_shoes"
+    "running_shoes",
+    "crystal_animated_sprites_with_shiny_visuals"
   ],
   "label": "art/CG3.png",
   "finish": "holo",
-  "summary": "Original-art 2.5D scenery with Wilds, Online, Dramatic Ride, Double Battles and running shoes.",
+  "summary": "2.5D scenery, synchronized riding, shared wild Pokemon, multiplayer battles, chat and trading.",
   "engine": ">=0.3.1 <3.0.0"
 }
