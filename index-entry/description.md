@@ -17,14 +17,13 @@ battle is staged on the map's nearest clear ground — the diorama stays visible
 in the panels' margins and through attack animations. Then a FLY user picks
 you up and the camera rises with you.
 
-For **Pokémon Crystal**. Thirteen mods, pinned by digest.
+For **Pokémon Crystal**. Twelve mods, pinned by digest.
 
 ## What's on it
 
 | mod | build | what it does here |
 | --- | --- | --- |
 | Gen1Online+ | 0.5.2 | online multiplayer: GTS trading, PVP battles and the Casino Lounge, server always asked for, sync scoped to the sealed cart |
-| Kanto Gear | 3.2.9 | companion UI host for the single-screen window |
 | Wilds of Kanto | 2.1.9 | wild Pokémon visible in the overworld, and the party follower |
 | Battle Art Voxel Fork | 1.17.2 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, rock models and default HD-2D scenery |
 | Dramatic Sky Ride | 0.2.23 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
@@ -42,7 +41,7 @@ in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
 `pokemon.sprite` hook, and the one that loads last has the outermost say on
 which art a battle draws.
 
-`seal` is `sealed+`: the list is fixed, but you can switch any of the thirteen
+`seal` is `sealed+`: the list is fixed, but you can switch any of the twelve
 off.
 
 ## Forks
@@ -218,3 +217,8 @@ all 13 companions and the hidden overworld Poké Ball HUD are retained.
 This update does not finish paired allied commands or multiplayer doubles.
 Exact Gamma Emerald parity, exhaustive map coverage and hardware performance
 remain ongoing.
+
+## 1.13.2 — remove Kanto Gear
+
+Removed Kanto Gear from the sealed cart and load order. The twelve remaining
+mod pins, their options, Crystal base, sealed+ policy and CG3 label are unchanged.

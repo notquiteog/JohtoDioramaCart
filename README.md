@@ -10,7 +10,7 @@ Download the `johto_diorama-<version>.g1rcart` asset from the
 [latest release](https://github.com/notquiteog/JohtoDioramaCart/releases/latest)
 and drop it into your save directory's `carts/` folder (or import it from the
 launcher's Custom Carts panel). The first boot of the cart resolves and
-installs the thirteen pinned mods itself; each is fetched at the exact build
+installs the twelve pinned mods itself; each is fetched at the exact build
 pinned in `cart.json` and verified against its published sha256.
 
 This bundle ships no code. It is a pin list — every mod on it is published
@@ -21,7 +21,6 @@ separately and fetched at its exact build.
 | mod | build | what it does here |
 | --- | --- | --- |
 | [Gen1Online+](https://github.com/notquiteog/gen1online-plus) | 0.5.5 | Crystal trading/PVP integration; Casino Lounge map scripts remain Gen 1-only |
-| [Kanto Gear](https://github.com/AverageConsumer/kanto-gear) | 3.2.9 | companion UI host for the single-screen window |
 | [Wilds of Kanto](https://github.com/YoDrehDenSwagAuf/overworld-spawn-mod) | 2.1.9 | wild Pokémon visible in the overworld, **and the party follower** |
 | [Battle Art Voxel Fork](https://github.com/notquiteog/DramaticShapeVoxelMod) | 1.20.3 | the diorama, 3D-BTL staged on it, Johto's tiles classified, round scenery, furniture, ledges and rock models, HD-2D scenery by default |
 | [Dramatic Sky Ride](https://github.com/notquiteog/dramatic-sky-ride) | 0.2.23 | land, water and air mounts with Suicune's traversal; a FLY user carries you over the map |
@@ -39,7 +38,7 @@ in. It matters: Battle Art and Crystal Animated Sprites both wrap the engine's
 `pokemon.sprite` hook, and the one that loads last has the outermost say on
 which art a battle draws.
 
-`seal` is `sealed+`: the list is fixed, but you can switch any of the thirteen
+`seal` is `sealed+`: the list is fixed, but you can switch any of the twelve
 off. Modern Johto ships with its balance switches at the author's off
 defaults, and Double Battles' WILD DOUBLES ships at SOMETIMES.
 
@@ -394,3 +393,8 @@ work. See the [visual coverage report](https://github.com/notquiteog/DramaticSha
 Targets Gen1Recomp0.2.73 on Linux. Crystal, sealed+, the CG3 label and full-body
 battle backs remain enabled as before. Existing multiplayer/doubles limitations
 are unchanged.
+
+## 1.13.2 — remove Kanto Gear
+
+Removed Kanto Gear from the sealed cart and load order. The twelve remaining
+mod pins, their options, Crystal base, sealed+ policy and CG3 label are unchanged.

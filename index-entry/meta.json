@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "Pok\u00e9mon Crystal with layered HD-2D scenery, modern battles, soft terrain, mounts, followers and modern menus.",
-  "version": "1.13.1",
+  "version": "1.13.2",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -28,13 +28,6 @@
       "repo": "notquiteog/gen1online-plus",
       "version": "0.5.5",
       "sha256": "ad5c22f4a848ba074fca75a8e37132beb8e84209b88a7e742b0e7a7d92844074"
-    },
-    {
-      "id": "kanto_gear",
-      "source": "github",
-      "repo": "AverageConsumer/kanto-gear",
-      "version": "3.2.9",
-      "sha256": "777a62dccc6fc3cd0fb1e422f4e37ede13b099c77f6afff64ebf830b31d34abb"
     },
     {
       "id": "overworld_wild_spawns",
@@ -122,7 +115,6 @@
   ],
   "load_order": [
     "gen1online-plus",
-    "kanto_gear",
     "overworld_wild_spawns",
     "BATTLE_ART_VOXEL_FORK",
     "gen2_modern_ui",
