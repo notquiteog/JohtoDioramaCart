@@ -222,3 +222,24 @@ remain ongoing.
 
 Removed Kanto Gear from the sealed cart and load order. The twelve remaining
 mod pins, their options, Crystal base, sealed+ policy and CG3 label are unchanged.
+
+## 1.14.0 — HD-2D worlds and interior dioramas
+
+Pins Battle Art 1.21.0 from our fork, including upstream through 1.11.0.
+Adds native-art scenery, reviewed building exteriors, shared render distance
+and contextual boundary fill, plus framed interiors and warm lighting.
+Requires Gen1Recomp 0.2.73+. Kanto Gear remains absent.
+Double Battles 0.9.5 adds optional overhead status cards using Battle Art’s
+public presentation exports. Crystal, sealed+ and the CG3 label are retained.
+
+This is an incremental visual release, not complete Gamma Emerald parity.
+Multiplayer doubles and FireRed companion ports remain unfinished.
+
+Release preflight: Wild Skies 1.12.3 fixes generated sky cards under native
+monochrome palettes. The overworld Poké Ball HUD stays hidden.
+
+Final release validation (Gen1Recomp 0.2.73 Linux): all 12 exact pinned
+versions loaded through the sealed-cart boot path; Elm's Lab rendered in
+static, first-person and rotating third-person views, followed by New Bark Town
+field return. Online release/hash validation passed. These checks
+are not a full quest playthrough or Internet multiplayer test.

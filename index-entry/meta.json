@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "Pok\u00e9mon Crystal with layered HD-2D scenery, modern battles, soft terrain, mounts, followers and modern menus.",
-  "version": "1.13.2",
+  "version": "1.14.0",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -43,8 +43,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.20.3",
-      "sha256": "714f81a4899df2889444b3d6df518a38632c7ae629dc6c83e0ae2eafda8247d0"
+      "version": "1.21.0",
+      "sha256": "b900dbd08ebe5e50ac7777b72e6f1aa3d4a0b8567730c74c4cc99cdcbda0af5f"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
@@ -92,15 +92,15 @@
       "id": "wild_skies",
       "source": "github",
       "repo": "notquiteog/wild_skies",
-      "version": "1.12.2",
-      "sha256": "a6bea50de0c72f1c06a9ed3d6e7a87ca8d64ee2fad5d05b66e38576e76d3b305"
+      "version": "1.12.3",
+      "sha256": "a44628d92e09d3a535834facbef95bd1a1bd1b07813ac2a2c5b014486664e2b4"
     },
     {
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.9.4",
-      "sha256": "b1084790e3c47fe296e3baf085d1eb53e50738711996ac14dd4edc67020bdd2f"
+      "version": "0.9.5",
+      "sha256": "d61b28c3f59c99ca3be3cc281cc5fa4db24345ab5e408daaad31ae6a5b6932e1"
     },
     {
       "id": "crystal_animated_sprites_with_shiny_visuals",
@@ -126,5 +126,6 @@
     "double_battles",
     "DRAMATIC_SKY_RIDE",
     "crystal_animated_sprites_with_shiny_visuals"
-  ]
+  ],
+  "engine": ">=0.2.73 <3.0.0"
 }
