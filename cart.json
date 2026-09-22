@@ -19,8 +19,8 @@
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "YoDrehDenSwagAuf/overworld-spawn-mod",
-      "version": "2.1.9",
-      "sha256": "0ac172cd0f463f78f9544d8a02cc31596655699e879d9a02895ae5aef22923dd",
+      "version": "2.2.0",
+      "sha256": "788188ca4b6fe9feb501a6f6202a917b04130d47691042930be2b7312fd03eca",
       "options": {
         "catch_hud_size": 0
       }
@@ -40,48 +40,6 @@
       "sha256": "586143259613ec2dc70624bf4e3a02cd40eb3133f1349cb45b54cf3ce869fab0"
     },
     {
-      "id": "gen2_modern_ui",
-      "source": "github",
-      "repo": "notquiteog/gen2recomp",
-      "version": "1.0.15",
-      "sha256": "a4d82f7cfdc6452d7b89c5cde02d62c9a534b8148445f2c426d86575220df69b"
-    },
-    {
-      "id": "gen3_box",
-      "source": "github",
-      "repo": "MadeinTaly/gen1recomp-gen3-boxes",
-      "version": "1.24.0",
-      "sha256": "a3749f3718b7edcda69d7aa3e5d525ef43724fd84afac1f8686858afd99e1e86"
-    },
-    {
-      "id": "modern_johto",
-      "source": "github",
-      "repo": "MadeinTaly/gen1recomp-modern-johto",
-      "version": "0.2.0",
-      "sha256": "1db28278956ce7200ba39075343f08c3d8009b6cbd77da7d5004b46156558731"
-    },
-    {
-      "id": "npc_bubbles",
-      "source": "github",
-      "repo": "notquiteog/gen1recomp-npc-bubbles",
-      "version": "2.3.13",
-      "sha256": "4e49f0079391e7a7f6e507f48721110f8d7e4d30355198585c62555cac22bdb9"
-    },
-    {
-      "id": "running_shoes",
-      "source": "github",
-      "repo": "MadeinTaly/gen1recomp-running-shoes",
-      "version": "1.10.0",
-      "sha256": "d4a52154f9d6b9c81c2d7421b694beda79bd66ef45471d2b7064739a9f6ed37b"
-    },
-    {
-      "id": "wild_skies",
-      "source": "github",
-      "repo": "notquiteog/wild_skies",
-      "version": "1.12.3",
-      "sha256": "a44628d92e09d3a535834facbef95bd1a1bd1b07813ac2a2c5b014486664e2b4"
-    },
-    {
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
@@ -89,32 +47,23 @@
       "sha256": "d61b28c3f59c99ca3be3cc281cc5fa4db24345ab5e408daaad31ae6a5b6932e1"
     },
     {
-      "id": "crystal_animated_sprites_with_shiny_visuals",
+      "id": "running_shoes",
       "source": "github",
-      "repo": "notquiteog/crystal_animated_sprites_with_shiny_visuals",
-      "version": "2.1.0",
-      "sha256": "9432787d25476ccf5ce63309efefad794ba6fae877f710013e6bf73ad2aa192f",
-      "options": {
-        "full_body_backs": true
-      }
+      "repo": "MadeinTaly/gen1recomp-running-shoes",
+      "version": "1.10.0",
+      "sha256": "d4a52154f9d6b9c81c2d7421b694beda79bd66ef45471d2b7064739a9f6ed37b"
     }
   ],
   "load_order": [
     "gen1online-plus",
     "overworld_wild_spawns",
     "BATTLE_ART_VOXEL_FORK",
-    "gen2_modern_ui",
-    "gen3_box",
-    "modern_johto",
-    "npc_bubbles",
-    "running_shoes",
-    "wild_skies",
-    "double_battles",
     "DRAMATIC_SKY_RIDE",
-    "crystal_animated_sprites_with_shiny_visuals"
+    "double_battles",
+    "running_shoes"
   ],
   "label": "art/CG3.png",
   "finish": "holo",
-  "summary": "Pok\u00e9mon Crystal in 3D: Battle Art scenery, free flight, modern menus, storage, running, companions, online trading.",
+  "summary": "Original-art 2.5D scenery with Wilds, Online, Dramatic Ride, Double Battles and running shoes.",
   "engine": ">=0.2.73 <3.0.0"
 }
