@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "Original-art 2.5D scenery with Wilds, Online, Dramatic Ride, Double Battles and running shoes.",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -16,7 +16,7 @@
     "flying",
     "followers",
     "modern-ui",
-    "hd-2d"
+    "2.5d"
   ],
   "repo": "https://github.com/notquiteog/JohtoDioramaCart",
   "github": "notquiteog/JohtoDioramaCart",
@@ -26,15 +26,15 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.5.5",
-      "sha256": "ad5c22f4a848ba074fca75a8e37132beb8e84209b88a7e742b0e7a7d92844074"
+      "version": "0.6.0",
+      "sha256": "d28e0a558c53d0f6d303a26e168d8ff8724489e7557e22e84a24fb316365b92b"
     },
     {
       "id": "overworld_wild_spawns",
       "source": "github",
-      "repo": "YoDrehDenSwagAuf/overworld-spawn-mod",
-      "version": "2.1.9",
-      "sha256": "0ac172cd0f463f78f9544d8a02cc31596655699e879d9a02895ae5aef22923dd",
+      "repo": "notquiteog/overworld-spawn-mod",
+      "version": "2.3.0",
+      "sha256": "dac5a85189aab6ede4acfff9207c2b5780da5386cdae08d3f895a665958be61f",
       "options": {
         "catch_hud_size": 0
       }
@@ -43,43 +43,22 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.21.0",
-      "sha256": "b900dbd08ebe5e50ac7777b72e6f1aa3d4a0b8567730c74c4cc99cdcbda0af5f"
+      "version": "1.22.0",
+      "sha256": "ffda1cd04386b91c4dd5462ea7f7ce9056ffaec6879c22b1e477100fc51f093a"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.2.23",
-      "sha256": "586143259613ec2dc70624bf4e3a02cd40eb3133f1349cb45b54cf3ce869fab0"
+      "version": "0.2.24",
+      "sha256": "d3bedf92c8fbb849bc42586be39eebad1e171a0a00ed49df64e113a2542b6781"
     },
     {
-      "id": "gen2_modern_ui",
+      "id": "double_battles",
       "source": "github",
-      "repo": "notquiteog/gen2recomp",
-      "version": "1.0.15",
-      "sha256": "a4d82f7cfdc6452d7b89c5cde02d62c9a534b8148445f2c426d86575220df69b"
-    },
-    {
-      "id": "gen3_box",
-      "source": "github",
-      "repo": "MadeinTaly/gen1recomp-gen3-boxes",
-      "version": "1.24.0",
-      "sha256": "a3749f3718b7edcda69d7aa3e5d525ef43724fd84afac1f8686858afd99e1e86"
-    },
-    {
-      "id": "modern_johto",
-      "source": "github",
-      "repo": "MadeinTaly/gen1recomp-modern-johto",
-      "version": "0.2.0",
-      "sha256": "1db28278956ce7200ba39075343f08c3d8009b6cbd77da7d5004b46156558731"
-    },
-    {
-      "id": "npc_bubbles",
-      "source": "github",
-      "repo": "notquiteog/gen1recomp-npc-bubbles",
-      "version": "2.3.13",
-      "sha256": "4e49f0079391e7a7f6e507f48721110f8d7e4d30355198585c62555cac22bdb9"
+      "repo": "notquiteog/double-battles-gen2",
+      "version": "0.10.0",
+      "sha256": "7b148922922d4ccc49074dec70c0aa1fa1c0694920f6883fa0ad50ec6f89e21e"
     },
     {
       "id": "running_shoes",
@@ -87,45 +66,15 @@
       "repo": "MadeinTaly/gen1recomp-running-shoes",
       "version": "1.10.0",
       "sha256": "d4a52154f9d6b9c81c2d7421b694beda79bd66ef45471d2b7064739a9f6ed37b"
-    },
-    {
-      "id": "wild_skies",
-      "source": "github",
-      "repo": "notquiteog/wild_skies",
-      "version": "1.12.3",
-      "sha256": "a44628d92e09d3a535834facbef95bd1a1bd1b07813ac2a2c5b014486664e2b4"
-    },
-    {
-      "id": "double_battles",
-      "source": "github",
-      "repo": "notquiteog/double-battles-gen2",
-      "version": "0.9.5",
-      "sha256": "d61b28c3f59c99ca3be3cc281cc5fa4db24345ab5e408daaad31ae6a5b6932e1"
-    },
-    {
-      "id": "crystal_animated_sprites_with_shiny_visuals",
-      "source": "github",
-      "repo": "notquiteog/crystal_animated_sprites_with_shiny_visuals",
-      "version": "2.1.0",
-      "sha256": "9432787d25476ccf5ce63309efefad794ba6fae877f710013e6bf73ad2aa192f",
-      "options": {
-        "full_body_backs": true
-      }
     }
   ],
   "load_order": [
     "gen1online-plus",
     "overworld_wild_spawns",
     "BATTLE_ART_VOXEL_FORK",
-    "gen2_modern_ui",
-    "gen3_box",
-    "modern_johto",
-    "npc_bubbles",
-    "running_shoes",
-    "wild_skies",
-    "double_battles",
     "DRAMATIC_SKY_RIDE",
-    "crystal_animated_sprites_with_shiny_visuals"
+    "double_battles",
+    "running_shoes"
   ],
-  "engine": ">=0.2.73 <3.0.0"
+  "engine": ">=0.3.1 <3.0.0"
 }
