@@ -1,3 +1,7 @@
+## 1.19.0 — 2026-09-23
+
+Battle Art 1.26.0: restored overlapping native forest trees, faster unchanged-terrain rendering, optional FSR 1 upscaling, shadow-acne correction, stable foliage depth ordering and modeled house siding. Includes 1.25 interior/ledge fixes. Other companion pins/defaults are unchanged. DLSS/frame generation and full cross-generation setting parity remain unimplemented; see the mod QA notes.
+
 ## 1.18.0 — 2026-09-23
 
 Battle Art 1.25.0: designed native-art furniture for Crystal and FireRed/LeafGreen houses, labs, Centers and Marts. Separate computers/keyboards/consoles, horizontal beds, open desks, recessed shelves, stock trays and low cushions; repaired wallpaper and carpet borders. FireRed/LeafGreen ledge jumps and their landing dust now remain in the selected 3D camera; player and first-person eye height follow the native hop arc. Sand/grass path transitions retain their original cap artwork and continuous ledge height instead of tapering into false ends. Adjacent Mart checkout sections meet without inset seams. Other companion pins and cart defaults are unchanged. Verified with isolated profiles on Gen1Recomp 0.3.2; exhaustive all-tile/option parity remains ongoing.
