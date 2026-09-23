@@ -1,3 +1,11 @@
+## 1.17.0-test.2
+
+**TEST PRERELEASE — published before gameplay testing at the user’s request.** Includes Gen 1 online doubles, HGSS overworld art (Gen 3 default; opt-in for Gen 1/2), and Battle Art right-stick/door/healing fixes.
+
+Battle Art itself now handles front/back sprite selection across all three generations. Existing animated atlases take priority; supplied BW art is a static full-body fallback. No separate BW mod is included. Gen 1 retains ROM art by default; Crystal retains its Gen 2 animated companion and full-body backs; FireRed selects Gen 5 battle art. Change the shared Battle Art options to opt in/out.
+
+Unsupported generation-specific settings remain visible but read-only (ADAPTER PENDING). Gen 1 doubles, new projection adapters and advanced mechanics are experimental and await gameplay verification. Gen1Recomp 0.3.1 target; no ROMs or saves.
+
 ## 1.17.0-test.1 — 2026-09-22
 
 **TEST PRERELEASE — published before gameplay testing at the user’s request.** Build/compile validation only at publication. Includes Gen 1 online doubles, supplied HGSS overworld art (Gen 3 default; opt-in for Gen 1/2), expanded Battle Art settings visibility, and Gen 3 right-stick/door/healing presentation changes. Options lacking a generation adapter are explicitly marked unavailable.
