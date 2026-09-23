@@ -1,5 +1,7 @@
 ## 1.17.0-test.11
 
+Post-publication checks passed on official Gen1Recomp 0.3.1: all three carts load exact mod pins and defaults; FireRed/LeafGreen single and double battles show animated enemies and four visible double battlers; native trainer doubles remain visible. The museum correction was inspected from both previous viewpoints. Earlier actor/lab/rock checks remain valid. These are test releases; full scenery, settings and multiplayer edge-case parity is unfinished.
+
 Includes the FireRed/LeafGreen sprite-grounding and shadow-contact corrections, plus real animated BW front sprites for all 386 normal and shiny species. This follow-up corrects native wild-double introductions leaving the second pair hidden, and a museum counter corner incorrectly raised into a wall.
 
 Six independent core mods: Battle Art, Online, Wilds, Ride, Double Battles and Wild Skies. Yellow and Crystal also include Running Shoes. Host-owned ground and sky encounters, riding, multiplayer battles, chat and trading remain included.
