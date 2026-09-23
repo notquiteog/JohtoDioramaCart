@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "2.5D scenery, synchronized riding, host-owned ground and sky Pokemon, multiplayer battles, chat and trading.",
-  "version": "1.17.0-test.10",
+  "version": "1.17.0-test.11",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -43,8 +43,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.23.0-test.10",
-      "sha256": "52ad69c2aeb4cfe02da9787e86b14ecf18982169674966c0702af42e511fbe9e",
+      "version": "1.23.0-test.11",
+      "sha256": "7241afe27955dc322796f1398d5ee6afa67bba3f1ee6bdb826332f740ea6db74",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -63,8 +63,8 @@
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.12.0-test.4",
-      "sha256": "55506e951c67116a519edb58d1b5f58688144fe76ab2ac063329f9ba9bbec2bd"
+      "version": "0.12.0-test.5",
+      "sha256": "5b86b4ee03c0f7f55a28b214e92f093f3495b0a7e35764bae6c75302300b071a"
     },
     {
       "id": "running_shoes",
