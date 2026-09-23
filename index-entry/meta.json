@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "2.5D scenery, synchronized riding, shared wild Pokemon, multiplayer battles, chat and trading.",
-  "version": "1.17.0-test.2",
+  "version": "1.17.0-test.3",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -43,8 +43,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.23.0-test.2",
-      "sha256": "07ec6467e4939a49b0cd134b3692c6ad050d1364f99a750c64332e09f305248d",
+      "version": "1.23.0-test.3",
+      "sha256": "ea4e2788cf0c45170fd46b903c3796406034579c89b0cd8d46b4b2517febc4fd",
       "options": {
         "duplicateFix": "modded"
       }
