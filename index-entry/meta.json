@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "2.5D scenery, synchronized riding, host-owned ground and sky Pokemon, multiplayer battles, chat and trading.",
-  "version": "1.17.1-test.3",
+  "version": "1.17.1",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -33,8 +33,8 @@
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "notquiteog/overworld-spawn-mod",
-      "version": "2.4.1-test.1",
-      "sha256": "bb22b6abf212230c181ce45022a9f4e9621eba9da16d4e05c8e710a1551a1a4d",
+      "version": "2.4.1",
+      "sha256": "0f69687da42c940b3b17afa6f0d372e202144fe78a02ffaa6b72386f4cc9e1d1",
       "options": {
         "catch_hud_size": 0
       }
@@ -43,8 +43,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.24.0-test.3",
-      "sha256": "77bc4ac8d70499f74cd8ae8f510268ae695f4dfb1a5530aa18253b48ce274985",
+      "version": "1.24.0",
+      "sha256": "b5bd5302a4b67a381dc583bb8445850e6519109ba18e3a04b2c251ad908fe087",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -77,8 +77,8 @@
       "id": "wild_skies",
       "source": "github",
       "repo": "notquiteog/wild_skies",
-      "version": "1.13.0",
-      "sha256": "804f0f13fe16935955953cf5a85cd3ffcea98355fbb43b644416d8088aa6b558"
+      "version": "1.13.1",
+      "sha256": "0f35ce47d1660321e20dd85e30768220730ad9f4c35c5be6ea487d4d31553851"
     }
   ],
   "load_order": [

@@ -1,3 +1,9 @@
+## 1.17.1 — 2026-09-23
+
+Battle Art 1.24.0 scenery update: native Pokémon Center escalators, low staff-safe reception counters, upstairs furniture, healing-machine alignment, Crystal kitchen/desk, museum exhibits and closed roof eave corners. Includes Wild Skies 1.13.1 (exclude native indoor flocks) and Wilds 2.4.1 (tested sprite grounding). Other companion pins and cart defaults are unchanged.
+
+Verified with isolated profiles on Gen1Recomp 0.3.2. Full all-tile scenery parity remains ongoing.
+
 ## 1.17.1-test.3 — 2026-09-23
 
 Test cart with Battle Art 1.24.0-test.3 and Wilds 2.4.1-test.1: upright foliage, shared actor grounding, native stairs/ladders and camera fixes. Other companion pins are unchanged. Published before testing by request; this build is experimental and full scenery parity remains unfinished.
