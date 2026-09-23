@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "2.5D scenery, synchronized riding, shared wild Pokemon, multiplayer battles, chat and trading.",
-  "version": "1.16.0",
+  "version": "1.17.0-test.1",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -26,15 +26,15 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.7.0",
-      "sha256": "bbef25d906988ec1ca085e69a47f2212272a671e2e902967c22f67100261e48c"
+      "version": "0.8.0-test.1",
+      "sha256": "85f46fb8c50b22a45a6aa268a43365041912dd281888eabbd15d40adefcceaef"
     },
     {
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "notquiteog/overworld-spawn-mod",
-      "version": "2.3.1",
-      "sha256": "d67aee0659b8f68f7adb91f9c8701a05b08fd5891c7efb2ea826a4e10391aa3a",
+      "version": "2.4.0-test.1",
+      "sha256": "c44c0f5562da1ed8d53b84869822732afc8eb40a8ac3022d5e68ce987dc622a3",
       "options": {
         "catch_hud_size": 0
       }
@@ -43,22 +43,22 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.22.0",
-      "sha256": "ffda1cd04386b91c4dd5462ea7f7ce9056ffaec6879c22b1e477100fc51f093a"
+      "version": "1.23.0-test.1",
+      "sha256": "d1594dee48499c3811e5cc2816db447dada26a8e5b7bcb9848aafec2fe3b7afa"
     },
     {
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.3.0",
-      "sha256": "df26b845c92d217e3c59d3dfd236adb4539c10e9dbfe197722ecf96bd4731a8b"
+      "version": "0.4.0-test.1",
+      "sha256": "e1d44520fc3cc6957300561762cba35bbfe01adf88cf283f8c0878bc09b9b93f"
     },
     {
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.11.0",
-      "sha256": "bbed6cc202d3792dcbf5a35eb5dfc95a6e59b4446d61b7ee5268b7f4e68dc771"
+      "version": "0.12.0-test.1",
+      "sha256": "23696cbab9203dc96f73aa115cd1b9e7459a8a00018b99b6bb06e4529ee61476"
     },
     {
       "id": "running_shoes",
