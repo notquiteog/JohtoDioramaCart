@@ -1,3 +1,11 @@
+## 1.17.0-test.9
+
+Adds Wild Skies, including its native FireRed/LeafGreen port, to the shared mod set. Six independent core mods support optional integrations: Battle Art, Online, Wilds, Ride, Double Battles and Wild Skies. Yellow/Crystal also include Running Shoes. Both ground and sky encounter ownership belongs to the online host when supported by both peers.
+
+This batch adds native generation options/consumers, native wild doubles/catching/trainer pairs, shared ball throwing, ride controls and matching mount visuals, selected battle/interface art, new Crystal/FireRed interior recipes and cave surfaces. Fixes Oak's starter table extending into the walkable player/rival approach row.
+
+TEST PRERELEASE: published before native gameplay and screenshot verification at the user's request. Compile and focused contract checks passed; exact packaged gameplay checks follow. Complete visual coverage of every tile and complete option parity remain unfinished. Battle Art includes a generation-specific support inventory that distinguishes implemented, partial and unavailable controls. Shared-sky coverage outside provider-supported host fields and exhaustive battle/disconnect combinations need further work. This release does not claim universal parity or visual perfection.
+
 ## 1.17.0-test.8
 
 Four Gen 1 double-battle cards follow the actual composed sprite heads, and the camera widens to keep both near-side Pokemon in view. FireRed/LeafGreen modern commands preserve full-body sprite pixels beneath the old command window; status anchors use the selected artwork. Fixes the packaged animated BW back atlas path (dex 1–251). Includes the shared modern UI toggle and functional Gen 3 shadow/world-curve/wireframe controls from test.7.

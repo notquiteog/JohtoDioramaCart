@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.17.0-test.8",
+  "version": "1.17.0-test.9",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -12,15 +12,15 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.8.0-test.1",
-      "sha256": "85f46fb8c50b22a45a6aa268a43365041912dd281888eabbd15d40adefcceaef"
+      "version": "0.8.0-test.2",
+      "sha256": "ffcbdbc10241123f79649e5a9f24550e6e518ee9eeceafbd909a5e5150bee398"
     },
     {
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "notquiteog/overworld-spawn-mod",
-      "version": "2.4.0-test.1",
-      "sha256": "c44c0f5562da1ed8d53b84869822732afc8eb40a8ac3022d5e68ce987dc622a3",
+      "version": "2.4.0-test.2",
+      "sha256": "1d3f7b2f47806f8f843025adb7d50410701278d078ee6b8d4bdff2d29dce16e4",
       "options": {
         "catch_hud_size": 0
       }
@@ -29,8 +29,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.23.0-test.8",
-      "sha256": "7b995d14f9c4736d640a5191e55837063bed6535280464d2c30c49b29cf9fd9e",
+      "version": "1.23.0-test.9",
+      "sha256": "0823c54182623760065c42e0c58395308c03591be5b3108f36e12efdfdf908ab",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -42,15 +42,15 @@
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.4.0-test.1",
-      "sha256": "e1d44520fc3cc6957300561762cba35bbfe01adf88cf283f8c0878bc09b9b93f"
+      "version": "0.4.0-test.2",
+      "sha256": "77389476ab61cc0f8c58a001e5c3f497f323084c79bd916795dfdaa0e81ee381"
     },
     {
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.12.0-test.3",
-      "sha256": "1bc7e1bd0c08f64673f0575213f01e9445156ad29ac4af4a8c9416502c10532d"
+      "version": "0.12.0-test.4",
+      "sha256": "55506e951c67116a519edb58d1b5f58688144fe76ab2ac063329f9ba9bbec2bd"
     },
     {
       "id": "running_shoes",
@@ -58,6 +58,13 @@
       "repo": "MadeinTaly/gen1recomp-running-shoes",
       "version": "1.10.0",
       "sha256": "d4a52154f9d6b9c81c2d7421b694beda79bd66ef45471d2b7064739a9f6ed37b"
+    },
+    {
+      "id": "wild_skies",
+      "source": "github",
+      "repo": "notquiteog/wild_skies",
+      "version": "1.13.0-test.1",
+      "sha256": "56e91ed45c7ea52cd0d441725390ae2d0fbce2eb75e6210f706c0367eceaa917"
     }
   ],
   "load_order": [
@@ -66,10 +73,11 @@
     "BATTLE_ART_VOXEL_FORK",
     "DRAMATIC_SKY_RIDE",
     "double_battles",
-    "running_shoes"
+    "running_shoes",
+    "wild_skies"
   ],
   "label": "art/CG3.png",
   "finish": "holo",
-  "summary": "2.5D scenery, synchronized riding, shared wild Pokemon, multiplayer battles, chat and trading.",
+  "summary": "2.5D scenery, synchronized riding, host-owned ground and sky Pokemon, multiplayer battles, chat and trading.",
   "engine": ">=0.3.1 <3.0.0"
 }
