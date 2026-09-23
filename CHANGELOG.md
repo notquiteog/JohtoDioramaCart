@@ -1,3 +1,7 @@
+## 1.17.1-test.3 — 2026-09-23
+
+Test cart with Battle Art 1.24.0-test.3 and Wilds 2.4.1-test.1: upright foliage, shared actor grounding, native stairs/ladders and camera fixes. Other companion pins are unchanged. Published before testing by request; this build is experimental and full scenery parity remains unfinished.
+
 ## 1.17.1-test.2 — 2026-09-23
 
 Test cart with Battle Art 1.24.0-test.2 and Wilds 2.4.1-test.1: upright foliage, shared actor grounding, native stairs/ladders and camera fixes. Other companion pins are unchanged. Published before testing by request; this build is experimental and full scenery parity remains unfinished.
