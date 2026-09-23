@@ -1,3 +1,9 @@
+## 1.17.0 — 2026-09-22
+
+Coordinated release pinning all six active mods: Battle Art 1.23.0, Online 0.8.0, Wilds 2.4.0, Ride 0.4.0, Double Battles 0.12.0 and Wild Skies 1.13.0. Yellow and Crystal also retain Running Shoes.
+
+Includes the verified sprite grounding and animated enemy battle fixes, four visible native double battlers, and the latest scenery corrections. Runtime and assets match the tested builds except version metadata. Official Gen1Recomp 0.3.1 validation and known limitations are retained; full scenery/settings and multiplayer edge-case parity remain unfinished.
+
 ## 1.17.0-test.11
 
 Post-publication checks passed on official Gen1Recomp 0.3.1: all three carts load exact mod pins and defaults; FireRed/LeafGreen single and double battles show animated enemies and four visible double battlers; native trainer doubles remain visible. The museum correction was inspected from both previous viewpoints. Earlier actor/lab/rock checks remain valid. These are test releases; full scenery, settings and multiplayer edge-case parity is unfinished.
