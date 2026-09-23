@@ -1,3 +1,7 @@
+## 1.18.0 — 2026-09-23
+
+Battle Art 1.25.0: designed native-art furniture for Crystal and FireRed/LeafGreen houses, labs, Centers and Marts. Separate computers/keyboards/consoles, horizontal beds, open desks, recessed shelves, stock trays and low cushions; repaired wallpaper and carpet borders. FireRed/LeafGreen ledge jumps and their landing dust now remain in the selected 3D camera; player and first-person eye height follow the native hop arc. Sand/grass path transitions retain their original cap artwork and continuous ledge height instead of tapering into false ends. Adjacent Mart checkout sections meet without inset seams. Other companion pins and cart defaults are unchanged. Verified with isolated profiles on Gen1Recomp 0.3.2; exhaustive all-tile/option parity remains ongoing.
+
 ## 1.17.1 — 2026-09-23
 
 Battle Art 1.24.0 scenery update: native Pokémon Center escalators, low staff-safe reception counters, upstairs furniture, healing-machine alignment, Crystal kitchen/desk, museum exhibits and closed roof eave corners. Includes Wild Skies 1.13.1 (exclude native indoor flocks) and Wilds 2.4.1 (tested sprite grounding). Other companion pins and cart defaults are unchanged.
