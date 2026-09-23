@@ -1,3 +1,7 @@
+## 1.17.1-test.1 — 2026-09-23
+
+Test cart with Battle Art 1.24.0-test.1 and Wilds 2.4.1-test.1: upright foliage, shared actor grounding, native stairs/ladders and camera fixes. Other companion pins are unchanged. Published before testing by request; this build is experimental and full scenery parity remains unfinished.
+
 ## 1.17.0 — 2026-09-22
 
 Coordinated release pinning all six active mods: Battle Art 1.23.0, Online 0.8.0, Wilds 2.4.0, Ride 0.4.0, Double Battles 0.12.0 and Wild Skies 1.13.0. Yellow and Crystal also retain Running Shoes.
