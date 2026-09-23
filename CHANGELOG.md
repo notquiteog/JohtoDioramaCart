@@ -1,3 +1,19 @@
+## 1.17.0-test.10
+
+Fixes the FireRed floating-actor presentation with stable sprite foot anchors and matching character-shadow contact. Includes 772 real animated Gen5 front atlases for all386 species (normal/shiny), preserving selected custom art precedence and Crystal defaults. Corrects lab ball padding and disconnected floor marks accidentally included in boulder models.
+
+Also fixes shared aerial Ride claim completion and caught sky-flockmate restoration. Six independent core mods integrate when present; Yellow and Crystal also include Running Shoes. Gen3 public music remains gated by official0.3.1; custom local Ride music catalogs remain available.
+
+Previous exact archives passed threecart boots/settings, native Wilds capture/followers, two-endpoint FireRed/Crystal doubles, FireRed trade and FireRed/LeafGreen riding. Published Ride.test3 plus Skies.test2 also passed shared aerial guest battle and host consumption. All eight lab approach views show the original table-through-character clipping resolved. Full inventories cover388Crystal and425FireRed maps; this is not visual certification of everytile. New grounding/front-animation patches receive final exactarchive gameplay checks after publication, as requested. Full option and visual parity remain unfinished.
+
+## 1.17.0-test.10
+
+Fixes the FireRed floating-actor presentation with stable sprite foot anchors and matching character-shadow contact. Includes 772 real animated Gen5 front atlases for all386 species (normal/shiny), preserving selected custom art precedence and Crystal defaults. Corrects lab ball padding and disconnected floor marks accidentally included in boulder models.
+
+Also fixes shared aerial Ride claim completion and caught sky-flockmate restoration. Six independent core mods integrate when present; Yellow and Crystal also include Running Shoes. Gen3 public music remains gated by official0.3.1; custom local Ride music catalogs remain available.
+
+Previous exact archives passed threecart boots/settings, native Wilds capture/followers, two-endpoint FireRed/Crystal doubles, FireRed trade and FireRed/LeafGreen riding. Published Ride.test3 plus Skies.test2 also passed shared aerial guest battle and host consumption. All eight lab approach views show the original table-through-character clipping resolved. Full inventories cover388Crystal and425FireRed maps; this is not visual certification of everytile. New grounding/front-animation patches receive final exactarchive gameplay checks after publication, as requested. Full option and visual parity remain unfinished.
+
 ## 1.17.0-test.9
 
 Adds Wild Skies, including its native FireRed/LeafGreen port, to the shared mod set. Six independent core mods support optional integrations: Battle Art, Online, Wilds, Ride, Double Battles and Wild Skies. Yellow/Crystal also include Running Shoes. Both ground and sky encounter ownership belongs to the online host when supported by both peers.

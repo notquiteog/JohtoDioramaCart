@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.17.0-test.9",
+  "version": "1.17.0-test.10",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -19,8 +19,8 @@
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "notquiteog/overworld-spawn-mod",
-      "version": "2.4.0-test.2",
-      "sha256": "1d3f7b2f47806f8f843025adb7d50410701278d078ee6b8d4bdff2d29dce16e4",
+      "version": "2.4.0-test.3",
+      "sha256": "a25ba997b920d9c185b6f6fa60270b0ad06f0dcc8ce9be563aa0cb8b0a0fb222",
       "options": {
         "catch_hud_size": 0
       }
@@ -29,8 +29,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.23.0-test.9",
-      "sha256": "0823c54182623760065c42e0c58395308c03591be5b3108f36e12efdfdf908ab",
+      "version": "1.23.0-test.10",
+      "sha256": "52ad69c2aeb4cfe02da9787e86b14ecf18982169674966c0702af42e511fbe9e",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -42,8 +42,8 @@
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.4.0-test.2",
-      "sha256": "77389476ab61cc0f8c58a001e5c3f497f323084c79bd916795dfdaa0e81ee381"
+      "version": "0.4.0-test.3",
+      "sha256": "e487077d04ed7b49eb5a4b90a0009e3813a49c87de5c040f541c1e7330651c60"
     },
     {
       "id": "double_battles",
@@ -63,8 +63,8 @@
       "id": "wild_skies",
       "source": "github",
       "repo": "notquiteog/wild_skies",
-      "version": "1.13.0-test.1",
-      "sha256": "56e91ed45c7ea52cd0d441725390ae2d0fbce2eb75e6210f706c0367eceaa917"
+      "version": "1.13.0-test.2",
+      "sha256": "3397dee948a31e71962bb679468f638d3d5a247dbb19fb89bb6e20f4b9612194"
     }
   ],
   "load_order": [
