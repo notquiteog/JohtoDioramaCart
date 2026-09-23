@@ -1,3 +1,9 @@
+## 1.17.0-test.6
+
+TEST PRERELEASE. Battle Art now includes the complete Crystal sprite pack and its normal/shiny animations, reveal effects, trainer portraits, menu/evolution presentation and optional Gen 5 full-body staged backs. Crystal is the default style for Gen 1/2; Gen 3 retains its selected BW battle art. The separate Crystal sprite dependency is removed from every cart. Yellow and Crystal now contain the five core mods plus Running Shoes; FireRed/LeafGreen contains the five core mods.
+
+Sprite pack selection requires restarting the game. Includes test.3 camera/sprite regression corrections. Source/asset checks precede publication; new gameplay/visual checks follow publication as requested. Full cross-generation feature parity and adapter-pending settings remain unfinished.
+
 ## 1.17.0-test.5
 
 TEST PRERELEASE. Battle Art now includes the complete Crystal sprite pack and its normal/shiny animations, reveal effects, trainer portraits, menu/evolution presentation and optional Gen 5 full-body staged backs. Crystal is the default style for Gen 1/2; Gen 3 retains its selected BW battle art. The separate Crystal sprite dependency is removed from every cart. Yellow and Crystal now contain the five core mods plus Running Shoes; FireRed/LeafGreen contains the five core mods.
