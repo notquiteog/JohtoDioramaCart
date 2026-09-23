@@ -1,3 +1,11 @@
+## 1.17.0-test.7
+
+Gen 1 staged battles now have separate projected status cards for all four double battlers and compact commands drawn after attack effects. MODERN BATTLE UI is a live shared setting across all three generations; OFF retains native UI. Gen 3 exposes the existing shadow, world-curve and wireframe controls. The selected-art renderer can reuse the bundled animated BW back atlases for dex 1–251; missing species retain static fallback. Custom installed atlases remain first priority. Crystal remains the default Gen 1/2 sprite pack.
+
+TEST PRERELEASE: published before gameplay testing as requested. Full cross-generation parity, Gen 3 shiny-context handling, animated front coverage and advanced multiplayer scenarios remain unfinished.
+
+Includes Double Battles’ Gen 2 UI opt-out fix. Five core mods in FireRed/LeafGreen; Yellow and Crystal also include Running Shoes.
+
 ## 1.17.0-test.6
 
 TEST PRERELEASE. Battle Art now includes the complete Crystal sprite pack and its normal/shiny animations, reveal effects, trainer portraits, menu/evolution presentation and optional Gen 5 full-body staged backs. Crystal is the default style for Gen 1/2; Gen 3 retains its selected BW battle art. The separate Crystal sprite dependency is removed from every cart. Yellow and Crystal now contain the five core mods plus Running Shoes; FireRed/LeafGreen contains the five core mods.
