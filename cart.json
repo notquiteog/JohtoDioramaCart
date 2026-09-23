@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.17.0-test.3",
+  "version": "1.17.0-test.4",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -29,10 +29,13 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.23.0-test.3",
-      "sha256": "ea4e2788cf0c45170fd46b903c3796406034579c89b0cd8d46b4b2517febc4fd",
+      "version": "1.23.0-test.4",
+      "sha256": "598451020d1ed92edeac50a89902b4e81cd334906fbdcee73eecf8de504f1dfd",
       "options": {
-        "duplicateFix": "modded"
+        "duplicateFix": "battle_art",
+        "spritePack": "crystal",
+        "full_body_backs": true,
+        "battleArt": "animated"
       }
     },
     {
@@ -55,16 +58,6 @@
       "repo": "MadeinTaly/gen1recomp-running-shoes",
       "version": "1.10.0",
       "sha256": "d4a52154f9d6b9c81c2d7421b694beda79bd66ef45471d2b7064739a9f6ed37b"
-    },
-    {
-      "id": "crystal_animated_sprites_with_shiny_visuals",
-      "source": "github",
-      "repo": "notquiteog/crystal_animated_sprites_with_shiny_visuals",
-      "version": "2.1.0",
-      "sha256": "9432787d25476ccf5ce63309efefad794ba6fae877f710013e6bf73ad2aa192f",
-      "options": {
-        "full_body_backs": true
-      }
     }
   ],
   "load_order": [
@@ -73,8 +66,7 @@
     "BATTLE_ART_VOXEL_FORK",
     "DRAMATIC_SKY_RIDE",
     "double_battles",
-    "running_shoes",
-    "crystal_animated_sprites_with_shiny_visuals"
+    "running_shoes"
   ],
   "label": "art/CG3.png",
   "finish": "holo",
