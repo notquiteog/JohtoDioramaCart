@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "2.5D scenery, synchronized riding, host-owned ground and sky Pokemon, multiplayer battles, chat and trading.",
-  "version": "1.21.0",
+  "version": "1.21.1",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -26,8 +26,8 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.8.0",
-      "sha256": "683905effa165e9e21482beaa9f566694f53fa5b61d8c96096b79ed6fb47307f"
+      "version": "0.8.1",
+      "sha256": "60b41ce314555ffacca0ff6f3e23f8b9febbcd565ffbc875c7cf6c00512ba057"
     },
     {
       "id": "overworld_wild_spawns",
@@ -43,8 +43,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.28.0",
-      "sha256": "9ab2d7cba542bf6b1fdcf4ad27bd10ee15184c8b307ca239d19cc8b5a34fdd85",
+      "version": "1.28.1",
+      "sha256": "610123c6b92b5387ed80d43d9c1ba4e0ca66325633a7242b6038985785c449bd",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -66,8 +66,8 @@
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.12.0",
-      "sha256": "b5d65556816357684d9f0ae242d87dfb2be9e21166d5f0fa66fb5f44097391d0"
+      "version": "0.12.1",
+      "sha256": "d521a45dd92e01befd332832038fa36b4095301c8780bc4f673d7fddb71fdc38"
     },
     {
       "id": "running_shoes",

@@ -1,3 +1,9 @@
+## 1.21.1 — 2026-09-26
+
+Pins Battle Art 1.28.1, Online 0.8.1 and Double Battles 0.12.1. Adds Crystal house/traditional-house furniture and wall/floor fixes, FireRed/LeafGreen office and ship furniture, and reworked potted plants with solid curved leaves. The 3D/2.5D scenery option remains available. Removes the optional asset startup dialogue and strengthens Gen1 online-doubles state checks.
+
+Verified representative native scenes and twelve-turn local ENet doubles on Gen1Recomp 0.3.20. Complete all-map visual coverage and full cross-generation feature/network parity remain unfinished. Existing Wilds, Ride, Skies and running-shoes pins are unchanged.
+
 ## 1.21.0 — 2026-09-26
 
 Replaces flat-looking source-column tree/rock extrusion with intersecting 3D canopy/stone masses using each game's native palette. Tree cards remain optional. Shelves now have individually projecting contents, while terminal/rack recipes get separate CRTs, keyboards and equipment modules. Six FireRed/LeafGreen Pokémon Tower grave drawings gain closed plinths and upright headstones, scoped to their original tileset.
