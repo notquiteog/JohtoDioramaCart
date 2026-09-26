@@ -1,3 +1,19 @@
+## 1.21.3 — 2026-09-26
+
+Pins Battle Art 1.28.3.
+
+Fixes FireRed/LeafGreen losing the selected 3D camera when leaving the player’s house with FAR/FULL render distance: connected tilesets with no ground triangles are valid empty batches. Genuine upload failures retain actionable diagnostics and bounded recovery.
+
+Rebuilds complete FireRed/LeafGreen house staircases with separate treads, risers, stringers, handrails and recessed descending flights. Restores the bedroom dresser with two drawers and handles. Mom sits at the dining chair’s cushion, with the chair backs facing away from the table; scripted movement remains native.
+
+Crystal house stairs retain their native four-step footprint. Stair warps are protected from door folding; north wall framing and wallpaper recess behind the flights, and shared Gen 1/2 room foundations leave descending stairwells open.
+
+First-person eyes now follow native sprite eye rows and visible-foot anchors across all three generations. FireRed/LeafGreen first person also disables world curvature and uses the shared close-wall focus distance. Mesh revision 76 refreshes stored geometry.
+
+Checked on Gen1Recomp 0.3.20 with isolated native fixtures and focused regressions. See docs/HOUSE_CAMERA_QA_2026-09-26.md for evidence and limits. Full all-map scenery and cross-generation feature parity remain unfinished.
+
+All other mod pins and cart options are unchanged.
+
 ## 1.21.2 — 2026-09-26
 
 Pins Battle Art 1.28.2. Native tree models now preserve distinct source-art families and correct footprints. Crystal and FireRed/LeafGreen share GPU tree models instead of copying every placement. All generations reuse unchanged scalar draw state and avoid repeated shadow-camera setup; Shadows OFF skips the shadow pass. Gen 1 keeps its authored models and existing map/chunk cache.
