@@ -1,3 +1,9 @@
+## 1.20.1 — 2026-09-26
+
+Pins Battle Art 1.27.1: lower sprite grass with complete native ground coverage; corrected bedroom console ownership; modeled neighboring-house appliances, plants and framed picture; Crystal CRT, radio, shelves and legged tables. Includes the 1.27.0 HUD, camera recovery, voxel-tree and house-side fixes. Companion versions remain unchanged.
+
+Reviewed starting-town interiors/exteriors in Crystal, FireRed and LeafGreen on official Gen1Recomp 0.3.20, plus a Yellow smoke check. Full scenery/settings and Gen3 battle-camera parity remain ongoing; see Battle Art’s starting-area QA notes.
+
 ## 1.20.0 — 2026-09-26
 
 Pins Battle Art 1.27.0: Crystal single-battle HUD ownership fix, bounded FireRed/LeafGreen scene recovery, source-art voxel trees with selectable card/detail alternatives, closed cave boulders and clean house-side texture samples. Gen3 uses the shared 3D-BTL control. Crystal and FireRed cart defaults select ORIGINAL MODEL trees with BALANCED detail; Yellow keeps its existing Gen1 models. Companion versions remain unchanged.
