@@ -1,6 +1,6 @@
 ## 1.20.2 — 2026-09-26
 
-Pins Battle Art1.27.2: 36 shared Crystal furniture recipes use component models, and seven native rock drawings use closed voxel volumes (2,048 placements). Includes lower grass, starting-area furniture, native voxel trees, HUD ownership and camera-recovery fixes. Companion versions remain unchanged.
+Pins Battle Art1.27.2: 36 shared Crystal furniture recipes use component models, and six native rock drawings use closed voxel volumes (2,048 placements). Includes lower grass, starting-area furniture, native voxel trees, HUD ownership and camera-recovery fixes. Companion versions remain unchanged.
 
 All388 Crystal maps inventoried; ten representative shared-scenery maps inspected in overview and first person on Gen1Recomp0.3.20. Full scenery/settings and Gen3 battle-camera parity remain unfinished.
 
