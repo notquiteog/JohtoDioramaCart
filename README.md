@@ -1,3 +1,13 @@
+## 1.21.2 — 2026-09-26
+
+Pins Battle Art 1.28.2. Native tree models now preserve distinct source-art families and correct footprints. Crystal and FireRed/LeafGreen share GPU tree models instead of copying every placement. All generations reuse unchanged scalar draw state and avoid repeated shadow-camera setup; Shadows OFF skips the shadow pass. Gen 1 keeps its authored models and existing map/chunk cache.
+
+In a short 2560×1440 LeafGreen Viridian Forest traversal on RTX 5060 Ti, the largest scenery-rebuild frame dropped from about 1,300 ms to 64 ms. Steady frame time was similar; residual rebuilding remains synchronous. This is a measured scene-specific hitch improvement, not a general FPS multiplier.
+
+Native GPU comparisons matched instanced/merged geometry and shadow pixels at four angles. Native smoke/scenery checks cover Yellow, Crystal, FireRed and LeafGreen. Full all-map scenery and cross-generation gameplay/settings parity remain unfinished.
+
+All other mod pins and cart options are unchanged.
+
 ## 1.21.1 — 2026-09-26
 
 Pins Battle Art 1.28.1, Online 0.8.1 and Double Battles 0.12.1. Adds Crystal house/traditional-house furniture and wall/floor fixes, FireRed/LeafGreen office and ship furniture, and reworked potted plants with solid curved leaves. The 3D/2.5D scenery option remains available. Removes the optional asset startup dialogue and strengthens Gen1 online-doubles state checks.
