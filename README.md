@@ -1,3 +1,13 @@
+## 1.21.0 — 2026-09-26
+
+Replaces flat-looking source-column tree/rock extrusion with intersecting 3D canopy/stone masses using each game's native palette. Tree cards remain optional. Shelves now have individually projecting contents, while terminal/rack recipes get separate CRTs, keyboards and equipment modules. Six FireRed/LeafGreen Pokémon Tower grave drawings gain closed plinths and upright headstones, scoped to their original tileset.
+
+Pins Battle Art 1.28.0: Crystal sculpture/bicycle models and timber siding; 31 additional FireRed/LeafGreen framed cabinet recipes; native forest/cave/tower atmosphere controls and optional scenery grain. Also pins Wilds 2.4.2 and Ride 0.4.1: selected-ball quick taps work with the HUD hidden, and Ride yields a rebound catch key. Other companion pins remain unchanged.
+
+Tested on Gen1Recomp 0.3.20 with representative rendered scenes and actual native settings menus. Full all-map scenery, settings and Gen3 world-space battle-camera parity remain unfinished; see Battle Art's native scenery QA report.
+
+Trees, rocks and bushes default to 3D models; native tree cards and rock/bush sprites remain selectable. People, Pokemon, grass and flowers stay sprites. Narrow border rows use separate trees, and broad 2x2 drawings use one tree. Optional CLEAR/AUTO/RAIN/SNOW/FOG/STORM weather is included.
+
 ## 1.20.2 — 2026-09-26
 
 Pins Battle Art1.27.2: 36 shared Crystal furniture recipes use component models, and six native rock drawings use closed voxel volumes (2,048 placements). Includes lower grass, starting-area furniture, native voxel trees, HUD ownership and camera-recovery fixes. Companion versions remain unchanged.
