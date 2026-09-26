@@ -1,3 +1,9 @@
+## 1.20.0 — 2026-09-26
+
+Pins Battle Art 1.27.0: Crystal single-battle HUD ownership fix, bounded FireRed/LeafGreen scene recovery, source-art voxel trees with selectable card/detail alternatives, closed cave boulders and clean house-side texture samples. Gen3 uses the shared 3D-BTL control. Crystal and FireRed cart defaults select ORIGINAL MODEL trees with BALANCED detail; Yellow keeps its existing Gen1 models. Companion versions remain unchanged.
+
+Checked on official Gen1Recomp 0.3.20. The original Pallet exception was not reproduced; controlled scene-error recovery and ordinary map transitions pass. Full scenery/settings and Gen3 battle-camera parity remain unfinished. See Battle Art's 1.27.0 QA notes for scope and limitations.
+
 ## 1.19.0 — 2026-09-23
 
 Battle Art 1.26.0: restored overlapping native forest trees, faster unchanged-terrain rendering, optional FSR 1 upscaling, shadow-acne correction, stable foliage depth ordering and modeled house siding. Includes 1.25 interior/ledge fixes. Other companion pins/defaults are unchanged. DLSS/frame generation and full cross-generation setting parity remain unimplemented; see the mod QA notes.
