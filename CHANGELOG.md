@@ -1,3 +1,15 @@
+## 1.21.9 — 2026-09-26
+
+Pins Battle Art 1.28.9.
+
+Crystal radio rooms now have dedicated broadcast receivers, mixing desks, microphones and low round stools. The complete 5F studio desk owns its stacked equipment and work surface together; cabinet materials no longer sample the empty floor strip above the source drawing.
+
+FireRed/LeafGreen Rocket Hideout machinery now has a closed processing vessel, separate radiator fins, controls, piping and feet, using the native colors. Added the executive desk drawing and fifteen missing teal partition pieces; native walkable copies remain flat. Silph wall colors remain separate. Mesh revision 81 refreshes stored geometry.
+
+Validated on Gen1Recomp 0.3.22 with native Crystal, FireRed, LeafGreen and Yellow fixtures, first-person/static/orbit views, unchanged native map grids, three complete B4F machines in both GBA editions, and focused geometry/source-art regressions. Full-area visual coverage and five-mod feature parity remain unfinished.
+
+All other mod pins and cart options are unchanged.
+
 ## 1.21.8 — 2026-09-26
 
 Pins Battle Art 1.28.8.
