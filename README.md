@@ -1,3 +1,13 @@
+## 1.21.8 — 2026-09-26
+
+Pins Battle Art 1.28.8.
+
+FireRed/LeafGreen Power Plant drums now use separate closed models instead of room-height walls: 66 drums across 39 complete source columns. Its 117 rubble piles use low, irregular faceted stones, with the original sprite alternative under ROCKS & PLANTS. Crystal gains native-art equipment racks and low cable trays, replacing generic shelf geometry.
+
+Mesh revision 80 refreshes stored scenery. Tested on Gen1Recomp 0.3.22 with native map fixtures, original artwork, first-person/rotating views and focused geometry/settings regressions. This is an incremental scenery update; full-area coverage and five-mod feature parity remain unfinished.
+
+All other mod pins and cart options are unchanged.
+
 ## 1.21.7 — 2026-09-26
 
 Pins Battle Art 1.28.7.
