@@ -1,3 +1,21 @@
+## 1.21.6 — 2026-09-26
+
+Pins Battle Art 1.28.6 and Wilds 2.4.3.
+
+Added closed component models for Crystal tower timber columns, the Olivine lighthouse apparatus, Fast Ship dining tables and the FireRed/LeafGreen museum space exhibit. The lighthouse model is restricted to its map because ship tables reuse the same artwork. Mesh revision 78 refreshes stored geometry.
+
+Gen2/Gen3 towers now draw Gen1's rolling mist banks with shared visibility, speed and thickness controls; thickness preserves raised floor heights. Refreshed the native tile ledger: 388 Crystal and 426 FireRed maps. Classification is not visual approval: 24,754 Crystal wall cells and 74,506 FireRed unreviewed cells remain in the review queue, alongside 297 unmatched FireRed building cells.
+
+Validated on Gen1Recomp 0.3.20 with native specialty/lab captures in Yellow, Crystal, FireRed and LeafGreen, 144 complete-object geometry checks, atmosphere/cache tests and 399 option-consumer checks. Full-area quality and five-mod parity remain unfinished. See docs/SPECIALTY_QA_2026-09-26.md.
+
+
+FireRed/LeafGreen visible Pokémon now keep their host-selected personality and shiny state in local spawns, remote-map simulation, snapshots, encounter grants, delayed native battles and capture storage. Guests show the correct variant on their first frame. The encounter shim preserves SDK validation and only enriches the owned encounter descriptor; other battles retain their native identity. No companion mod is required.
+
+Validated on Gen1Recomp 0.3.20 with native FireRed/LeafGreen encounter and capture fixtures, isolated identity/remote-roster tests, 53 settings/capture assertions, 61 input assertions, 10 grounding checks and 104 official Gen1/2 capture/storage assertions. Existing online wire fields are used; this pass does not certify the full live multiplayer matrix.
+
+
+All other mod pins and cart options are unchanged.
+
 ## 1.21.5 — 2026-09-26
 
 Pins Battle Art 1.28.5.
