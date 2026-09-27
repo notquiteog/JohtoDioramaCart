@@ -1,3 +1,13 @@
+## 1.21.7 — 2026-09-26
+
+Pins Battle Art 1.28.7.
+
+Restores the full depth of Oak’s starter table in FireRed/LeafGreen, keeping all three Poké Balls centered and the native approach clear. Adds component models for Crystal’s Power Plant machinery and both FireRed/LeafGreen turbine drawings, using their native artwork and colors. Mesh revision 79 refreshes stored models.
+
+Checked on Gen1Recomp 0.3.20 and the latest 0.3.22 with native first-person/rotating/static captures and focused geometry/cache regressions. Full-area scenery coverage and five-mod feature parity remain unfinished.
+
+All other mod pins and cart options are unchanged.
+
 ## 1.21.6 — 2026-09-26
 
 Pins Battle Art 1.28.6 and Wilds 2.4.3.
