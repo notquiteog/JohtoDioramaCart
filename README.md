@@ -1,3 +1,7 @@
+## 1.22.1 — 2026-10-04
+
+Updates Battle Art to 1.30.0: world-projected Gen3 battle actors/effects, shared battle camera, grounded capture balls, and original-art Littleroot/Birch lab models. Other companion pins and settings are unchanged. Requires Gen1Recomp 0.3.51 or newer. Emerald remains a regional preview; complete every-map and online-outcome verification is not claimed.
+
 ## 1.22.0 — 2026-10-04
 
 Requires Gen1Recomp 0.3.51 or newer. Updates Battle Art 1.29.0, Wilds 2.5.0, Online 0.9.0, Ride 0.5.0, Doubles 0.13.0 and Skies 1.14.0. Other existing pins and options remain unchanged.
