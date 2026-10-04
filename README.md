@@ -1,3 +1,9 @@
+## 1.22.0 — 2026-10-04
+
+Requires Gen1Recomp 0.3.51 or newer. Updates Battle Art 1.29.0, Wilds 2.5.0, Online 0.9.0, Ride 0.5.0, Doubles 0.13.0 and Skies 1.14.0. Other existing pins and options remain unchanged.
+
+Includes modeled roof/window details, Center/Mart furniture refinement, corrected Gen3 far-side battle sizing, upstream Battle Art 1.11.1 and native Emerald companion adapters. Existing Gen1/2 world-space battle actors remain unchanged. Gen3 actors retain native animation composition; full camera parity remains unfinished.
+
 ## 1.21.9 — 2026-09-26
 
 Pins Battle Art 1.28.9.
