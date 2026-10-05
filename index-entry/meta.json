@@ -3,7 +3,7 @@
   "title": "Johto Diorama",
   "author": "notquiteog",
   "summary": "2.5D scenery, synchronized riding, host-owned ground and sky Pokemon, multiplayer battles, chat and trading.",
-  "version": "1.24.3",
+  "version": "1.24.4",
   "base": "crystal",
   "seal": "sealed+",
   "shell": "#4a9d5f",
@@ -26,8 +26,8 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.9.1",
-      "sha256": "a09d89131c6856c09c884dcfa551483e5a83f0771dd04e47094b2f9eb18e3cf7"
+      "version": "0.9.2",
+      "sha256": "6c8b9bf3c9982833a6888b7144f031bbf291685599762eb0dfc76024427723c7"
     },
     {
       "id": "overworld_wild_spawns",
@@ -43,8 +43,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.31.4",
-      "sha256": "02a2d5707399758364fdc52365d272a4ee9a2c39f614766abed634086e7e88e1",
+      "version": "1.31.5",
+      "sha256": "8344f3c08ffd5a72ad6fb89b189c52da239e9f6ed7c1629e75d083bbcbad6831",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -59,8 +59,8 @@
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.5.1",
-      "sha256": "33a2f59fc57c9f26d9d2d82536a4fabf096fb39ae31bbece279902f57775240e"
+      "version": "0.5.2",
+      "sha256": "d5c1b24bb0661c9c7ffa816b0569cfb6a6aefcfb6dfde090cdf2cd568534b0e3"
     },
     {
       "id": "double_battles",
@@ -87,8 +87,8 @@
       "id": "MODERN_POKEMON_UI",
       "source": "github",
       "repo": "notquiteog/modern-ui",
-      "version": "0.2.1",
-      "sha256": "743eadbd33fcbd6c4d5415dee870bd3d1ddfbb4e2ab9ccba1ed04d9b5dd35e6a",
+      "version": "0.2.2",
+      "sha256": "0bb1edc042f942b53eceadcbaf1049be333a6041d932ea4c6f233b58dcddfa32",
       "options": {
         "modernBattleUI": true
       }

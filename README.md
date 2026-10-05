@@ -1,3 +1,7 @@
+## 1.24.4 — 2026-10-05
+
+Updates Battle Art to 1.31.5, Modern UI to 0.2.2, Sky Ride to 0.5.2 and Online to 0.9.2. Includes building footprint fixes, square gym canopies, optional native scenery effects, modern menu and Gen3 party panels, and native-style riding/chat overlays. Other companion versions and cart options remain unchanged. Battle Art suite on engine 0.3.52: 182 passed, 0 failed, 56 skipped. Full-world coverage and parity remain in progress.
+
 ## 1.24.3 — 2026-10-05
 
 Updates Battle Art to 1.31.4, Modern UI to 0.2.1 and Double Battles to 0.13.3. Includes rebuilt Emerald service buildings and gym entrances, native-art scenery fixes, improved battle status cards and native tutorial/Safari compatibility. Other companion versions and defaults remain unchanged. Tested on Gen1Recomp 0.3.52; full world coverage and feature parity remain in progress. Battle Art suite: 179 passed, 0 failed, 56 skipped.
