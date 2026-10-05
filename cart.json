@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.23.0",
+  "version": "1.24.0",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -29,8 +29,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.31.0",
-      "sha256": "07432634049b973f96363503bda4495697e9ceba4852ea1dbf61a07a3d1a9497",
+      "version": "1.31.1",
+      "sha256": "44417fc80c6577c5145400600fbf33cb48a442f0099a05c98213930a77bab0c0",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -68,6 +68,16 @@
       "repo": "notquiteog/wild_skies",
       "version": "1.14.1",
       "sha256": "0fbc2f2c5052095324519507c59e83768fd0421c44930ca2ce1a936340b8074d"
+    },
+    {
+      "id": "MODERN_POKEMON_UI",
+      "source": "github",
+      "repo": "notquiteog/modern-ui",
+      "version": "0.1.0",
+      "sha256": "fc8748cb5659a92542bdec588349652030769ae32971c38f234f99a508cb742b",
+      "options": {
+        "modernBattleUI": true
+      }
     }
   ],
   "load_order": [
@@ -77,7 +87,8 @@
     "DRAMATIC_SKY_RIDE",
     "double_battles",
     "running_shoes",
-    "wild_skies"
+    "wild_skies",
+    "MODERN_POKEMON_UI"
   ],
   "label": "art/CG3.png",
   "finish": "holo",

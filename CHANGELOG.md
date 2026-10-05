@@ -1,3 +1,9 @@
+## 1.24.0 — 2026-10-05
+
+Adds optional Modern Pokemon UI 0.1.0 and updates Battle Art to 1.31.1. All other companion pins remain unchanged. Modern UI defaults ON and can be disabled in native mod settings. Neither mod requires the other. Requires Gen1Recomp 0.3.51 or newer.
+
+Verified single-battle ON/OFF presentation in Yellow, Crystal, LeafGreen and Emerald, independently and with partners. Battle Art: 162 passing suites, zero failures, 56 external-fixture skips. Full Legendary/Ascendant feature parity, native styling of Online/Ride custom overlays and the full doubles/link/attack transition matrix remain unfinished. This release does not certify those gaps.
+
 ## 1.23.0 — 2026-10-04
 
 Updated all six companion pins: Battle Art 1.31.0, Wilds 2.5.1, Online 0.9.1, Ride 0.5.1, Doubles 0.13.1 and Skies 1.14.1. Running Shoes remains unchanged where included. Requires Gen1Recomp 0.3.51 or newer.
