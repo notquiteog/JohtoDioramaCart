@@ -1,3 +1,9 @@
+## 1.23.0 — 2026-10-04
+
+Updated all six companion pins: Battle Art 1.31.0, Wilds 2.5.1, Online 0.9.1, Ride 0.5.1, Doubles 0.13.1 and Skies 1.14.1. Running Shoes remains unchanged where included. Requires Gen1Recomp 0.3.51 or newer.
+
+Battle Art adds native-art architecture, furniture, gym objects, Tower walls, Crystal arcade/station fittings and scenery corrections. Other mods are packaging refreshes with unchanged runtime behavior. Existing cart settings are preserved. Full-world visual coverage and complete multiplayer verification remain unfinished.
+
 ## 1.22.1 — 2026-10-04
 
 Updates Battle Art to 1.30.0: world-projected Gen3 battle actors/effects, shared battle camera, grounded capture balls, and original-art Littleroot/Birch lab models. Other companion pins and settings are unchanged. Requires Gen1Recomp 0.3.51 or newer. Emerald remains a regional preview; complete every-map and online-outcome verification is not claimed.

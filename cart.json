@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.22.1",
+  "version": "1.23.0",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -12,15 +12,15 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.9.0",
-      "sha256": "06529f8510531cd2ad9c82f18b754d689e2522c0dae3f82837758c9d3996fe42"
+      "version": "0.9.1",
+      "sha256": "a09d89131c6856c09c884dcfa551483e5a83f0771dd04e47094b2f9eb18e3cf7"
     },
     {
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "notquiteog/overworld-spawn-mod",
-      "version": "2.5.0",
-      "sha256": "448c7e208dbd939875ec2ce77dfba32d8d9d29b35537e284cc91465b109ef820",
+      "version": "2.5.1",
+      "sha256": "0716d880abe124dfe186113103e833be89e3b65a57d1142aa89b57a01f1804cd",
       "options": {
         "catch_hud_size": 0
       }
@@ -29,8 +29,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.30.0",
-      "sha256": "c204aae4bdb81a61b7fe7684c0b02d189d79905d4f17abe9106a992aed01c027",
+      "version": "1.31.0",
+      "sha256": "07432634049b973f96363503bda4495697e9ceba4852ea1dbf61a07a3d1a9497",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -45,15 +45,15 @@
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.5.0",
-      "sha256": "d20314c5e0824824084d1fead1ce9ecfc3d6e8f2ab83088d58733b3dcec84a39"
+      "version": "0.5.1",
+      "sha256": "33a2f59fc57c9f26d9d2d82536a4fabf096fb39ae31bbece279902f57775240e"
     },
     {
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.13.0",
-      "sha256": "9c47c69b71d4a001d6e5f450de98754507d05c83d2442e5871cb3a12fd522634"
+      "version": "0.13.1",
+      "sha256": "3cda26140bd593d8282954b7c328ea188ed722ecf926860a6dae8a041945b4e7"
     },
     {
       "id": "running_shoes",
@@ -66,8 +66,8 @@
       "id": "wild_skies",
       "source": "github",
       "repo": "notquiteog/wild_skies",
-      "version": "1.14.0",
-      "sha256": "a047343da64e2bd6e3fbb51f1c1581fa721f796afef50257a4739d1ca7f8d78d"
+      "version": "1.14.1",
+      "sha256": "0fbc2f2c5052095324519507c59e83768fd0421c44930ca2ce1a936340b8074d"
     }
   ],
   "load_order": [
