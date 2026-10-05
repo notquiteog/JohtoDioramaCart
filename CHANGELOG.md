@@ -1,3 +1,9 @@
+## 1.24.2 — 2026-10-05
+
+Updates Battle Art to 1.31.3, Kanto Wilds to 2.5.2 and Modern UI to 0.2.0. Adds native museum geometry, collision-safe furniture, sprite/ambience adapters, the hidden grass blob fix and standalone modern battle controls. Other recently released companion versions and cart defaults remain unchanged. Requires Gen1Recomp 0.3.51 or newer.
+
+Battle Art: 170 suites passed, 56 skipped. Representative render and battle checks passed; exhaustive world, generation parity and online coverage remain unfinished.
+
 ## 1.24.1 — 2026-10-05
 
 Updates Battle Art to 1.31.2 and Double Battles to 0.13.2. Other companion pins and cart defaults are unchanged. Includes native furniture/League models, blocked-space fixes, rendering optimizations and Gen3 FULL preset parity. Double Battles retains native HUD styling unless optional Modern UI opts in. Requires Gen1Recomp 0.3.51 or newer.
