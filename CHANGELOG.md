@@ -1,3 +1,9 @@
+## 1.24.1 — 2026-10-05
+
+Updates Battle Art to 1.31.2 and Double Battles to 0.13.2. Other companion pins and cart defaults are unchanged. Includes native furniture/League models, blocked-space fixes, rendering optimizations and Gen3 FULL preset parity. Double Battles retains native HUD styling unless optional Modern UI opts in. Requires Gen1Recomp 0.3.51 or newer.
+
+Battle Art: 164 suites passed, 56 external-fixture skips. Double Battles: 53 native Gen3 adapter contracts passed. Representative native render checks passed; complete world coverage, feature/settings parity and exhaustive online battle verification remain unfinished.
+
 ## 1.24.0 — 2026-10-05
 
 Adds optional Modern Pokemon UI 0.1.0 and updates Battle Art to 1.31.1. All other companion pins remain unchanged. Modern UI defaults ON and can be disabled in native mod settings. Neither mod requires the other. Requires Gen1Recomp 0.3.51 or newer.

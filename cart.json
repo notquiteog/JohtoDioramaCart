@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.24.0",
+  "version": "1.24.1",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -29,8 +29,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.31.1",
-      "sha256": "44417fc80c6577c5145400600fbf33cb48a442f0099a05c98213930a77bab0c0",
+      "version": "1.31.2",
+      "sha256": "48fdb632cb69274adcaafa5aa044c6fc051f54bedd229497d602369ec43e1d9d",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -52,8 +52,8 @@
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.13.1",
-      "sha256": "3cda26140bd593d8282954b7c328ea188ed722ecf926860a6dae8a041945b4e7"
+      "version": "0.13.2",
+      "sha256": "672286d06c0ebb7634214e25f7c2c0295098cb41e78217b1730bb8ca449563eb"
     },
     {
       "id": "running_shoes",
