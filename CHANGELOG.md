@@ -1,3 +1,7 @@
+## 1.24.3 — 2026-10-05
+
+Updates Battle Art to 1.31.4, Modern UI to 0.2.1 and Double Battles to 0.13.3. Includes rebuilt Emerald service buildings and gym entrances, native-art scenery fixes, improved battle status cards and native tutorial/Safari compatibility. Other companion versions and defaults remain unchanged. Tested on Gen1Recomp 0.3.52; full world coverage and feature parity remain in progress. Battle Art suite: 179 passed, 0 failed, 56 skipped.
+
 ## 1.24.2 — 2026-10-05
 
 Updates Battle Art to 1.31.3, Kanto Wilds to 2.5.2 and Modern UI to 0.2.0. Adds native museum geometry, collision-safe furniture, sprite/ambience adapters, the hidden grass blob fix and standalone modern battle controls. Other recently released companion versions and cart defaults remain unchanged. Requires Gen1Recomp 0.3.51 or newer.

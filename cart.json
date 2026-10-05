@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.24.2",
+  "version": "1.24.3",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -29,8 +29,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.31.3",
-      "sha256": "6e4f969fedac38d0b3c0aee03c509f6f646d16ba4e9d5e1c223913781ddb4a3a",
+      "version": "1.31.4",
+      "sha256": "02a2d5707399758364fdc52365d272a4ee9a2c39f614766abed634086e7e88e1",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -52,8 +52,8 @@
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.13.2",
-      "sha256": "672286d06c0ebb7634214e25f7c2c0295098cb41e78217b1730bb8ca449563eb"
+      "version": "0.13.3",
+      "sha256": "5fb76693f86b303357837528d6d7cf37c79513f7fa337af01513d646d37f439c"
     },
     {
       "id": "running_shoes",
@@ -73,8 +73,8 @@
       "id": "MODERN_POKEMON_UI",
       "source": "github",
       "repo": "notquiteog/modern-ui",
-      "version": "0.2.0",
-      "sha256": "2f6fc2ff31855b00ac5baeaf551437ed2311b53ca48437ae2deab1c804100ffc",
+      "version": "0.2.1",
+      "sha256": "743eadbd33fcbd6c4d5415dee870bd3d1ddfbb4e2ab9ccba1ed04d9b5dd35e6a",
       "options": {
         "modernBattleUI": true
       }
