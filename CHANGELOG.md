@@ -1,3 +1,7 @@
+## 1.24.5 — 2026-10-17
+
+Refresh all seven mod pins, including Battle Art1.50.0 (Android GLES fixes, optimizations, camera and native battle updates), Wilds2.6.5 and Double Battles0.14.4. Includes previously published model improvements. Requires Gen1Recomp0.3.89 or later. Physical Android hardware verification remains pending.
+
 ## 1.24.4 — 2026-10-05
 
 Updates Battle Art to 1.31.5, Modern UI to 0.2.2, Sky Ride to 0.5.2 and Online to 0.9.2. Includes building footprint fixes, square gym canopies, optional native scenery effects, modern menu and Gen3 party panels, and native-style riding/chat overlays. Other companion versions and cart options remain unchanged. Battle Art suite on engine 0.3.52: 182 passed, 0 failed, 56 skipped. Full-world coverage and parity remain in progress.
