@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.24.6",
+  "version": "1.24.7",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -19,8 +19,8 @@
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "notquiteog/overworld-spawn-mod",
-      "version": "2.6.6",
-      "sha256": "366700c325d0585ffd12419822723930838e0e15cb5209de6cac0b616eed9183",
+      "version": "2.6.8",
+      "sha256": "39770c9011d8871c521537a06bfde4d03a086860e12dc22714fc05e5a0245db4",
       "options": {
         "catch_hud_size": 0
       }

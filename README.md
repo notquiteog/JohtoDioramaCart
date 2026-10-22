@@ -1,3 +1,7 @@
+## 1.24.7 — 2026-10-22
+
+Refresh all seven pins to the published October 20 mod releases: Battle Art 1.55.0, Modern UI 0.4.4, Wilds 2.6.8, Double Battles 0.14.6, Online 0.11.3, Sky Ride 0.5.6 and Wild Skies 1.15.3. Includes the recovered Wilds branch features; AI chat and memory remain OFF by default. Options and Running Shoes are preserved. Packaging and release checksums verified; no new gameplay or physical-phone certification. XD imports remain experimental and disabled.
+
 ## 1.24.6 — 2026-10-22
 
 Refresh all seven pins to the published October 20 mod releases: Battle Art 1.55.0, Modern UI 0.4.4, Wilds 2.6.6, Double Battles 0.14.6, Online 0.11.3, Sky Ride 0.5.6 and Wild Skies 1.15.3. Previously these carts still pinned Battle Art 1.50.0 and older companions. Options and Running Shoes are preserved. Packaging and release checksums verified; no new gameplay or physical-phone certification. XD imports remain experimental and disabled.
