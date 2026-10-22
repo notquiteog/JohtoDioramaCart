@@ -3,7 +3,7 @@
   "id": "johto_diorama",
   "title": "Johto Diorama",
   "author": "notquiteog",
-  "version": "1.24.5",
+  "version": "1.24.6",
   "base": "crystal",
   "shell": "#4a9d5f",
   "seal": "sealed+",
@@ -12,15 +12,15 @@
       "id": "gen1online-plus",
       "source": "github",
       "repo": "notquiteog/gen1online-plus",
-      "version": "0.11.2",
-      "sha256": "7f0e2a880a6b213791f220ae1f5e0aec25d974d9dbed636b113393dbeb898d44"
+      "version": "0.11.3",
+      "sha256": "6e00f5e06e392e68fd43aa85d33c65c628417496d26735b789744f0062f836ed"
     },
     {
       "id": "overworld_wild_spawns",
       "source": "github",
       "repo": "notquiteog/overworld-spawn-mod",
-      "version": "2.6.5",
-      "sha256": "414aa7aec22e42f6b030be3273283c9f8701149b4cc94d0cc87dd76384c9ac95",
+      "version": "2.6.6",
+      "sha256": "366700c325d0585ffd12419822723930838e0e15cb5209de6cac0b616eed9183",
       "options": {
         "catch_hud_size": 0
       }
@@ -29,8 +29,8 @@
       "id": "BATTLE_ART_VOXEL_FORK",
       "source": "github",
       "repo": "notquiteog/DramaticShapeVoxelMod",
-      "version": "1.50.0",
-      "sha256": "8d5aa426eca9dc78733084687fbd65ccef2ce596250c0222ff747372e98d7a03",
+      "version": "1.55.0",
+      "sha256": "1ec85a9339f40ec7d7787fe637c142cf0bc045a3e560058e641bc50a6aa196b6",
       "options": {
         "duplicateFix": "battle_art",
         "spritePack": "crystal",
@@ -45,15 +45,15 @@
       "id": "DRAMATIC_SKY_RIDE",
       "source": "github",
       "repo": "notquiteog/dramatic-sky-ride",
-      "version": "0.5.5",
-      "sha256": "f770a85dd2fde9f534ada682b396e2114ff2d782e1678058c2de03231d9f3985"
+      "version": "0.5.6",
+      "sha256": "84cea285847a2bfb7c731c9420f5b9c4a08bebc1364d8a0ed6f47923d7b6a12b"
     },
     {
       "id": "double_battles",
       "source": "github",
       "repo": "notquiteog/double-battles-gen2",
-      "version": "0.14.4",
-      "sha256": "605161aedcefc1827c95821c8893359c22e6882c965adc4869d16c1bef1dbd6c"
+      "version": "0.14.6",
+      "sha256": "31f8b0dccb6ab4bcb267145cbfe8a0f2745e90d04ec487f8b00d7a5ed58b2e5b"
     },
     {
       "id": "running_shoes",
@@ -66,15 +66,15 @@
       "id": "wild_skies",
       "source": "github",
       "repo": "notquiteog/wild_skies",
-      "version": "1.15.2",
-      "sha256": "6cf0b0bf750e69d38e98b415fc4a3e5c431f6df5a2a40a71f369ed7edbf079e4"
+      "version": "1.15.3",
+      "sha256": "7bce6108c0f751ed3b663857024d51ea0d3e638ed719ad750bd0bb829689e5ef"
     },
     {
       "id": "MODERN_POKEMON_UI",
       "source": "github",
       "repo": "notquiteog/modern-ui",
-      "version": "0.4.2",
-      "sha256": "0a6b1c3e0c8c740bcf3121970cd7e0e8f697def64180f9c6478c2988e2251b1f",
+      "version": "0.4.4",
+      "sha256": "b1a8c10591782890569decd9271cb21da47fba4c68cc31dd5b7f5d0dad27fa0e",
       "options": {
         "modernBattleUI": true
       }

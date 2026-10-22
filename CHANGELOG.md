@@ -1,3 +1,7 @@
+## 1.24.6 — 2026-10-22
+
+Refresh all seven pins to the published October 20 mod releases: Battle Art 1.55.0, Modern UI 0.4.4, Wilds 2.6.6, Double Battles 0.14.6, Online 0.11.3, Sky Ride 0.5.6 and Wild Skies 1.15.3. Previously these carts still pinned Battle Art 1.50.0 and older companions. Options and Running Shoes are preserved. Packaging and release checksums verified; no new gameplay or physical-phone certification. XD imports remain experimental and disabled.
+
 ## 1.24.5 — 2026-10-17
 
 Refresh all seven mod pins, including Battle Art1.50.0 (Android GLES fixes, optimizations, camera and native battle updates), Wilds2.6.5 and Double Battles0.14.4. Includes previously published model improvements. Requires Gen1Recomp0.3.89 or later. Physical Android hardware verification remains pending.
